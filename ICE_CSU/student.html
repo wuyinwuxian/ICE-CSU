@@ -1,0 +1,3121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>控制工程研究所</title>
+    <link rel="shortcut icon" type="image/icon" href="image/icon/1.png" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="中南大学, 中南, 中南大学控制工程研究所, 控制工程研究所, 有色冶金自动化教育部工程研究中心, 有色冶金自动化, 教育部工程研究中心, CSU, ICE">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link href="css/myCss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- 首行logo -->
+    <div class="container">
+        <div class="logotop">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-xs-offset-8 col-md-offset-8 col-sm-offset-8"
+                style="padding-left: 50px; padding-right: 0px; ">
+                <div style="height: 30px;  margin-top: 20px;">
+                    <p class="text-center" id="show_time" style="color: aliceblue;"></p>
+                </div>
+                <form class="navbar-form">
+                    <div style="width: 30%;float: right;">
+                        <button type="submit" class="btn btn-default text-center">搜索</button>
+                    </div>
+                    <div class="form-group" style="width: 60%;float: right;">
+                        <input type="text" class="form-control" placeholder="站内搜索" style="width: 90%;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 首行logo -->
+
+    <!-- 导航栏及大图 -->
+    <div class="container"
+        style="margin-top: 5px; margin-bottom: 40px; margin-left:auto; margin-right: auto;  overflow:visible; position:relative;">
+        <div class="container daohang">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-12"
+                    style="margin-bottom: 5px;padding-left: 0px; padding-right: 0px;" id="daohang">
+                    <ul id="mainMenu" class="nav nav-pills nav-justified" role="tablist"
+                        style="background-color: rgb(255, 255, 255); margin: 0px;">
+                        <li role="presentation">
+                            <a href="index.html" target="_self">首页</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="overview.html" target="_self">中心简介</a>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="search.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">学术研究<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="search.html?key=1" target="_self">研究方向</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="search.html?key=2" target="_self">研究项目</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="search.html?key=3" target="_self">科研成果</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="team.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">机构队伍<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=1" target="_self">组织机构</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=2" target="_self">技术委员会成员</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=3" target="_self">科研队伍</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=4" target="_self">固定研究人员</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=5" target="_self">流动人员</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown active">
+                            <a href="student.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">人才培养<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="student.html?key=1" target="_self">学生名单</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="student.html?key=2"
+                                        target="_self">联合培养学生名单</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="communication.html?key=1" target="_self"
+                                class="dropdown-toggle" data-toggle="dropdown">开放交流<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1"
+                                        href="communication.html?key=1"
+                                        target="_self">学术交流</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1"
+                                        href="communication.html?key=2"
+                                        target="_self">国际交流与合作</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1"
+                                        href="communication.html?key=3"
+                                        target="_self">111引智计划</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1"
+                                        href="communication.html?key=4"
+                                        target="_self">产学研用</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="links.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">资源链接<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="links.html?key=1"
+                                        target="_self">征文信息</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="links.html?key=2"
+                                        target="_self">期刊杂志</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="links.html?key=3"
+                                        target="_self">国内外会议</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation">
+                            <a href="contact.html" target="_self">联系我们</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="image/logo/logo6.png" class="img-responsive center-block" style="margin-top: 1px" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏及大图 -->
+
+    <div class="container" style="margin-left:auto; margin-right: auto; margin-top:30x;">
+        <div class="container mainbox">
+            <div class="row">
+                <div class="col-sx-3 col-sm-3 col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-middle">
+                            <h3>人才培养</h3>
+                        </div>
+                    </div>
+
+                    <div class="list-group" id="listGroup1" role="tablist">
+                        <p class="list-group-item leftmenu" data-index="1">在读学生 </p>
+                        <p class="list-group-item leftmenu" data-index="2"> 联合培养学生</p>
+                    </div>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9">
+                    <div class="myArticle well" id='zaidu' style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li class="active">研究生名单</li>
+                        </ol>
+
+                        <h3 class="text-center">研究生名单</h3>
+                        <br />
+
+                        <table class="table-bordered text-center" id="table1" data-toggle="table">
+                        </table>
+                    </div>
+
+                    <div class="myArticle well" id='lianhe' style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li class="active">联合培养研究生名单</li>
+                        </ol>
+
+                        <h3 class="text-center">联合培养研究生名单</h3>
+                        <br />
+
+                        <table class="table-bordered text-center" id="table2" data-toggle="table">
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部友情链接、版权和地址 -->
+    <div class="container-fluid">
+        <div style="width:100%;height: 20px;"></div>
+        <div style="text-align: center;">
+            <div id="links">
+                <div>
+                    <a href="http://www.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/zndx5.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://lib.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/zndx1.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://soa.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/zndx6.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://gfist.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/gdjtsys2.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://aeice.alwit.cn/" target="_blank">
+                        <img src="image/foot/ldjxt1.png" class="img-responsive center-block" alt="Image"
+                            style="margin-left: 0.06px;margin-right: 0px;width: 188px;height: 60px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%;height: 8px;"></div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"></h3>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="text-center">
+                版权所有：中南大学控制工程研究所&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：<a
+                    href="https://goo.gl/maps/ybxGLqLGr7TTLJMZA"
+                    target="_blank">湖南省长沙市岳麓区麓山南路932号中南大学民主楼</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail：<a
+                    href="mailto:x-info@csu.edu.cn" target="_blank">x-info@csu.edu.cn</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：0736-88830700&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意见反馈：<a href="mailto:ruya_mingli@163.com"
+                target="_blank">ruya_mingli@163.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术支持qq：2944014083
+            </p>
+            <p>
+                <span class="gs_logo">
+                    <a href="#">
+                        <img src="image/foot/logii.png" class="img-responsive center-block" alt="Cinque Terre"
+                            width="50" height="50" />
+                    </a>
+                </span>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="text-center panel-title">中南大学自动化学院版权所有&nbsp;&nbsp;
+                    地址：<a href="https://goo.gl/maps/ybxGLqLGr7TTLJMZA" style="color: rgb(241, 240, 247);"
+                        target="_blank">湖南省长沙市岳麓区麓山南路932号中南大学民主楼</a>&nbsp;&nbsp;
+                    电话：0736-88830700&nbsp;&nbsp; E-mail：<a href="mailto:x-info@csu.edu.cn"
+                        target="_blank">x-info@csu.edu.cn</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- 底部友情链接、版权和地址 -->
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-table.min.js"></script>
+
+    <script>//这里就一句话就可以显示时间，但不是我想要的最理想结果 
+        setInterval("show_time.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());", 100);
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            dropdownOpen();//调用
+        });
+        function dropdownOpen() {
+            var $dropdownLi = $('li.dropdown');
+            $dropdownLi.mouseover(function () {
+                $(this).addClass('open');
+            }).mouseout(function () {
+                $(this).removeClass('open');
+            });
+        }
+    </script>
+    <script>
+        $('#table1').bootstrapTable({
+
+            pagination: 'true'
+            , pageSize: 20
+            , pageList: 'false'
+
+            , columns: [{
+                field: 'id',
+                title: '序号'
+                , width: '10%'
+            }, {
+                field: 'name',
+                title: '研究生姓名'
+                , width: '30%'
+
+            }, {
+                field: 'graduateTime',
+                title: '毕业年度'
+                , width: '30%'
+
+            }, {
+                field: 'teacher',
+                title: '导师姓名'
+                , width: '30%'
+
+            }]
+
+            , data: [
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 1,
+                    "name": "杜灿勋"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 2,
+                    "name": "刘金平"
+                },
+                {
+                    "graduateTime": 2013.12,
+                    "teacher": "桂卫华",
+                    "id": 3,
+                    "name": "唐勇波"
+                },
+                {
+                    "graduateTime": 2013.12,
+                    "teacher": "桂卫华",
+                    "id": 4,
+                    "name": "刘建华"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "桂卫华",
+                    "id": 5,
+                    "name": "王卫安"
+                },
+                {
+                    "graduateTime": 2014.12,
+                    "teacher": "桂卫华",
+                    "id": 6,
+                    "name": "朱建勇"
+                },
+                {
+                    "graduateTime": 2015.12,
+                    "teacher": "桂卫华",
+                    "id": 7,
+                    "name": "鄢锋"
+                },
+                {
+                    "graduateTime": 2015.12,
+                    "teacher": "桂卫华",
+                    "id": 8,
+                    "name": "卢明"
+                },
+                {
+                    "graduateTime": 2015.12,
+                    "teacher": "桂卫华",
+                    "id": 9,
+                    "name": "孙备"
+                },
+                {
+                    "graduateTime": 2014.12,
+                    "teacher": "贺建军",
+                    "id": 10,
+                    "name": "刘斌"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "年晓红",
+                    "id": 11,
+                    "name": "孙妙平"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "年晓红",
+                    "id": 12,
+                    "name": "敬华兵"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "年晓红",
+                    "id": 13,
+                    "name": "郭凌"
+                },
+                {
+                    "graduateTime": 2016.12,
+                    "teacher": "年晓红",
+                    "id": 14,
+                    "name": "尚敬"
+                },
+                {
+                    "graduateTime": 2016.12,
+                    "teacher": "年晓红",
+                    "id": 15,
+                    "name": "侯海良"
+                },
+                {
+                    "graduateTime": 2017.12,
+                    "teacher": "彭涛",
+                    "id": 16,
+                    "name": "但汉兵"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "粟梅",
+                    "id": 17,
+                    "name": "朱俊杰"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "粟梅",
+                    "id": 18,
+                    "name": "李幸"
+                },
+                {
+                    "graduateTime": 2014.12,
+                    "teacher": "粟梅",
+                    "id": 19,
+                    "name": "潘攀"
+                },
+                {
+                    "graduateTime": 2014.12,
+                    "teacher": "粟梅",
+                    "id": 20,
+                    "name": "王辉"
+                },
+                {
+                    "graduateTime": 2015.12,
+                    "teacher": "粟梅",
+                    "id": 21,
+                    "name": "余岳"
+                },
+                {
+                    "graduateTime": 2016.12,
+                    "teacher": "粟梅",
+                    "id": 22,
+                    "name": "罗朝旭"
+                },
+                {
+                    "graduateTime": 2017.12,
+                    "teacher": "孙尧",
+                    "id": 23,
+                    "name": "熊文静"
+                },
+                {
+                    "graduateTime": 2017.12,
+                    "teacher": "孙尧",
+                    "id": 24,
+                    "name": "刘永露"
+                },
+                {
+                    "graduateTime": 2015.12,
+                    "teacher": "谢永芳",
+                    "id": 25,
+                    "name": "曹斌芳"
+                },
+                {
+                    "graduateTime": 2016.12,
+                    "teacher": "谢永芳",
+                    "id": 26,
+                    "name": "吴佳"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 27,
+                    "name": "尹林子"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 28,
+                    "name": "李建奇"
+                },
+                {
+                    "graduateTime": 2014.12,
+                    "teacher": "阳春华",
+                    "id": 29,
+                    "name": "伍铁斌"
+                },
+                {
+                    "graduateTime": 2015.12,
+                    "teacher": "阳春华",
+                    "id": 30,
+                    "name": "何明芳"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "阳春华",
+                    "id": 31,
+                    "name": "王国伟"
+                },
+                {
+                    "graduateTime": 2016.12,
+                    "teacher": "阳春华",
+                    "id": 32,
+                    "name": "钱晓山"
+                },
+                {
+                    "graduateTime": 2016.12,
+                    "teacher": "阳春华",
+                    "id": 33,
+                    "name": "张斌"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "岑丽辉",
+                    "id": 34,
+                    "name": "邹阳贵"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "岑丽辉",
+                    "id": 35,
+                    "name": "傅冬平"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "陈宁",
+                    "id": 36,
+                    "name": "林霞"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "陈宁",
+                    "id": 37,
+                    "name": "林腾波"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "陈宁",
+                    "id": 38,
+                    "name": "范勇"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "陈宁",
+                    "id": 39,
+                    "name": "钟志平"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "陈晓方",
+                    "id": 40,
+                    "name": "秦晨"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "陈晓方",
+                    "id": 41,
+                    "name": "杨卜菘"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 42,
+                    "name": "喻同云"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 43,
+                    "name": "胡开放"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 44,
+                    "name": "赵仙勇"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 45,
+                    "name": "郭健"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "桂卫华",
+                    "id": 46,
+                    "name": "陈志鹏"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "桂卫华",
+                    "id": 47,
+                    "name": "黄江波"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "桂卫华",
+                    "id": 48,
+                    "name": "刘正"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "桂卫华",
+                    "id": 49,
+                    "name": "杨玉婷"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "桂卫华",
+                    "id": 50,
+                    "name": "李中美"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "桂卫华",
+                    "id": 51,
+                    "name": "龙良曲"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "桂卫华",
+                    "id": 52,
+                    "name": "杨贵军"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "桂卫华",
+                    "id": 53,
+                    "name": "邓康"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "桂卫华",
+                    "id": 54,
+                    "name": "董梦林"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "桂卫华",
+                    "id": 55,
+                    "name": "汪颖"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "桂卫华",
+                    "id": 56,
+                    "name": "朱丽琳"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "桂卫华",
+                    "id": 57,
+                    "name": "吴巧群"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "桂卫华",
+                    "id": 58,
+                    "name": "史震"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "郭宇骞",
+                    "id": 59,
+                    "name": "丁勇"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "郭宇骞",
+                    "id": 60,
+                    "name": "邬昊旻"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "郭宇骞",
+                    "id": 61,
+                    "name": "朱文刚"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "郭宇骞",
+                    "id": 62,
+                    "name": "肖凯文"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "贺建军",
+                    "id": 63,
+                    "name": "白云鹏"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "贺建军",
+                    "id": 64,
+                    "name": "田霄"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "贺建军",
+                    "id": 65,
+                    "name": "苏云"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "贺建军",
+                    "id": 66,
+                    "name": "陈林"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "贺建军",
+                    "id": 67,
+                    "name": "姚志远"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "贺建军",
+                    "id": 68,
+                    "name": "彭超"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "贺建军",
+                    "id": 69,
+                    "name": "梁志远"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "贺建军",
+                    "id": 70,
+                    "name": "汤倩媛"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "贺建军",
+                    "id": 71,
+                    "name": "孙娟"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "贺建军",
+                    "id": 72,
+                    "name": "梅菲"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "贺建军",
+                    "id": 73,
+                    "name": "于清"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "贺建军",
+                    "id": 74,
+                    "name": "张竹"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "蒋朝辉",
+                    "id": 75,
+                    "name": "刘昕"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "李勇刚",
+                    "id": 76,
+                    "name": "刘丽莎"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "李勇刚",
+                    "id": 77,
+                    "name": "杨根"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "李勇刚",
+                    "id": 78,
+                    "name": "林天水"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "李勇刚",
+                    "id": 79,
+                    "name": "王为"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "李勇刚",
+                    "id": 80,
+                    "name": "朱三毛"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "李勇刚",
+                    "id": 81,
+                    "name": "邓子鹏"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "李勇刚",
+                    "id": 82,
+                    "name": "周文俊"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "李勇刚",
+                    "id": 83,
+                    "name": "黄亚"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "李勇刚",
+                    "id": 84,
+                    "name": "马庆"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "李勇刚",
+                    "id": 85,
+                    "name": "刘思宇"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "李志勇",
+                    "id": 86,
+                    "name": "程宇旭"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "李志勇",
+                    "id": 87,
+                    "name": "刘志昌"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "年晓红",
+                    "id": 88,
+                    "name": "彭飞"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "年晓红",
+                    "id": 89,
+                    "name": "丁磊磊"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "年晓红",
+                    "id": 90,
+                    "name": "邓镇华"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "年晓红",
+                    "id": 91,
+                    "name": "郭楠"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "年晓红",
+                    "id": 92,
+                    "name": "岳鹏超"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "年晓红",
+                    "id": 93,
+                    "name": "刘丽"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "年晓红",
+                    "id": 94,
+                    "name": "霍唐锴"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "年晓红",
+                    "id": 95,
+                    "name": "戴利琼"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "年晓红",
+                    "id": 96,
+                    "name": "郭华"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "年晓红",
+                    "id": 97,
+                    "name": "彭智"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "年晓红",
+                    "id": 98,
+                    "name": "张哲"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "彭涛",
+                    "id": 99,
+                    "name": "谭文齐"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "彭涛",
+                    "id": 100,
+                    "name": "曹威"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "彭涛",
+                    "id": 101,
+                    "name": "黄易"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "彭涛",
+                    "id": 102,
+                    "name": "玉华雄"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "彭涛",
+                    "id": 103,
+                    "name": "赵璐"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "彭涛",
+                    "id": 104,
+                    "name": "毛永梅"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "彭涛",
+                    "id": 105,
+                    "name": "彭霞"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "彭涛",
+                    "id": 106,
+                    "name": "邓慧"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "彭涛",
+                    "id": 107,
+                    "name": "史露"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "粟梅",
+                    "id": 108,
+                    "name": "刘杰"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "粟梅",
+                    "id": 109,
+                    "name": "李庙仙"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "粟梅",
+                    "id": 110,
+                    "name": "陈婷"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "粟梅",
+                    "id": 111,
+                    "name": "杭芹"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "粟梅",
+                    "id": 112,
+                    "name": "刘建飞"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "粟梅",
+                    "id": 113,
+                    "name": "刘兴艳"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "孙尧",
+                    "id": 114,
+                    "name": "刘卫霞"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "唐朝晖",
+                    "id": 115,
+                    "name": "朱俊宇"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "唐朝晖",
+                    "id": 116,
+                    "name": "杨赛强"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "唐朝晖",
+                    "id": 117,
+                    "name": "徐健"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "唐朝晖",
+                    "id": 118,
+                    "name": "黄丽娟"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "唐朝晖",
+                    "id": 119,
+                    "name": "肖津"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "唐朝晖",
+                    "id": 120,
+                    "name": "王新颖"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "唐朝晖",
+                    "id": 121,
+                    "name": "刘美丽"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "唐朝晖",
+                    "id": 122,
+                    "name": "杨云轩"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "唐朝晖",
+                    "id": 123,
+                    "name": "闫志浩"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "王雅琳",
+                    "id": 124,
+                    "name": "刘斌"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "王雅琳",
+                    "id": 125,
+                    "name": "连武卿"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "王雅琳",
+                    "id": 126,
+                    "name": "何巍"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "王雅琳",
+                    "id": 127,
+                    "name": "张润钦"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "王雅琳",
+                    "id": 128,
+                    "name": "孙晨玮"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "王雅琳",
+                    "id": 129,
+                    "name": "陈斌"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "王雅琳",
+                    "id": 130,
+                    "name": "刘正雄"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "王雅琳",
+                    "id": 131,
+                    "name": "龚繁颖"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "王雅琳",
+                    "id": 132,
+                    "name": "黄凯华"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "王雅琳",
+                    "id": 133,
+                    "name": "陈冬冬"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "王雅琳",
+                    "id": 134,
+                    "name": "崇庆魏"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "王雅琳",
+                    "id": 135,
+                    "name": "何海明"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "王雅琳",
+                    "id": 136,
+                    "name": "卢青"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "王雅琳",
+                    "id": 137,
+                    "name": "杨少明"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "谢永芳",
+                    "id": 138,
+                    "name": "余祎"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "谢永芳",
+                    "id": 139,
+                    "name": "郭德益"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "谢永芳",
+                    "id": 140,
+                    "name": "陈辉"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "谢永芳",
+                    "id": 141,
+                    "name": "夏巨龙"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "谢永芳",
+                    "id": 142,
+                    "name": "黄三思"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "谢永芳",
+                    "id": 143,
+                    "name": "何永平"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "谢永芳",
+                    "id": 144,
+                    "name": "赵洪伟"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "谢永芳",
+                    "id": 145,
+                    "name": "燕青"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "谢永芳",
+                    "id": 146,
+                    "name": "李晞月"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "谢永芳",
+                    "id": 147,
+                    "name": "杨为"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "谢永芳",
+                    "id": 148,
+                    "name": "左健"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "谢永芳",
+                    "id": 149,
+                    "name": "王峰"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "谢永芳",
+                    "id": 150,
+                    "name": "尉思谜"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "徐德刚",
+                    "id": 151,
+                    "name": "赵盼磊"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "徐德刚",
+                    "id": 152,
+                    "name": "桂艳球"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "徐德刚",
+                    "id": 153,
+                    "name": "黄天正"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "徐德刚",
+                    "id": 154,
+                    "name": "陈晓"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "徐德刚",
+                    "id": 155,
+                    "name": "陈贻湾"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 156,
+                    "name": "刘端健"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 157,
+                    "name": "周璇"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 158,
+                    "name": "吴齐"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 159,
+                    "name": "雷洁珩"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "阳春华",
+                    "id": 160,
+                    "name": "凌弈秋"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "阳春华",
+                    "id": 161,
+                    "name": "张旖芮"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "阳春华",
+                    "id": 162,
+                    "name": "曾子骄"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "阳春华",
+                    "id": 163,
+                    "name": "胡峻"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "阳春华",
+                    "id": 164,
+                    "name": "彭雄威"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "阳春华",
+                    "id": 165,
+                    "name": "郭根"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "阳春华",
+                    "id": 166,
+                    "name": "刘玉"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "阳春华",
+                    "id": 167,
+                    "name": "王宏善"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "阳春华",
+                    "id": 168,
+                    "name": "朱军"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "阳春华",
+                    "id": 169,
+                    "name": "杨鹏"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "阳春华",
+                    "id": 170,
+                    "name": "董天雪"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "阳春华",
+                    "id": 171,
+                    "name": "邵明明"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "阳春华",
+                    "id": 172,
+                    "name": "胡鑫"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "阳春华",
+                    "id": 173,
+                    "name": "朱超"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "叶华文",
+                    "id": 174,
+                    "name": "李思明"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "岑丽辉",
+                    "id": 175,
+                    "name": "吴自强"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "陈宁",
+                    "id": 176,
+                    "name": "胡小军"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "陈宁",
+                    "id": 177,
+                    "name": "黄璐"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "陈宁",
+                    "id": 178,
+                    "name": "李超成"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "陈宁",
+                    "id": 179,
+                    "name": "宋予熙"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "陈宁",
+                    "id": 180,
+                    "name": "阳舜"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "桂卫华",
+                    "id": 181,
+                    "name": "王刚毅"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "桂卫华",
+                    "id": 182,
+                    "name": "胡非"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "桂卫华",
+                    "id": 183,
+                    "name": "尹菊萍"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "桂卫华",
+                    "id": 184,
+                    "name": "赵茂行"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "桂卫华",
+                    "id": 185,
+                    "name": "李原鹰"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "郭宇骞",
+                    "id": 186,
+                    "name": "徐松"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "郭宇骞",
+                    "id": 187,
+                    "name": "王盼"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "郭宇骞",
+                    "id": 188,
+                    "name": "丁勇"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "郭宇骞",
+                    "id": 189,
+                    "name": "谢典"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "郭宇骞",
+                    "id": 190,
+                    "name": "马晓勇"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "贺建军",
+                    "id": 191,
+                    "name": "曾文静"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "贺建军",
+                    "id": 192,
+                    "name": "刘琛"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "贺建军",
+                    "id": 193,
+                    "name": "张博"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "李勇刚",
+                    "id": 194,
+                    "name": "左秋杰"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "李勇刚",
+                    "id": 195,
+                    "name": "汤志专"
+                },
+                {
+                    "graduateTime": 2013.6,
+                    "teacher": "年晓红",
+                    "id": 196,
+                    "name": "佘栋"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "年晓红",
+                    "id": 197,
+                    "name": "王忠"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "年晓红",
+                    "id": 198,
+                    "name": "韩朋"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "唐朝晖",
+                    "id": 199,
+                    "name": "王伟"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "唐朝晖",
+                    "id": 200,
+                    "name": "谭珍"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "唐朝晖",
+                    "id": 201,
+                    "name": "刘奇"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "唐朝晖",
+                    "id": 202,
+                    "name": "梅栋"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "王雅琳",
+                    "id": 203,
+                    "name": "周哓玲"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "王雅琳",
+                    "id": 204,
+                    "name": "黄天红"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "王雅琳",
+                    "id": 205,
+                    "name": "王美蕴"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "王雅琳",
+                    "id": 206,
+                    "name": "邓元"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "王雅琳",
+                    "id": 207,
+                    "name": "彭凯"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "谢永芳",
+                    "id": 208,
+                    "name": "魏利君"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "谢永芳",
+                    "id": 209,
+                    "name": "唐君蕊"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "谢永芳",
+                    "id": 210,
+                    "name": "邓亦梁"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "谢永芳",
+                    "id": 211,
+                    "name": "闫雨晴"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "谢永芳",
+                    "id": 212,
+                    "name": "林林生"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "徐德刚",
+                    "id": 213,
+                    "name": "吴晨曦"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "徐德刚",
+                    "id": 214,
+                    "name": "徐戏阳"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "徐德刚",
+                    "id": 215,
+                    "name": "刘育峰"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "阳春华",
+                    "id": 216,
+                    "name": "尹冬航"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "阳春华",
+                    "id": 217,
+                    "name": "尹睿"
+                },
+                {
+                    "graduateTime": 2016.6,
+                    "teacher": "阳春华",
+                    "id": 218,
+                    "name": "邹玉龙"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "阳春华",
+                    "id": 219,
+                    "name": "杨超"
+                },
+                {
+                    "graduateTime": 2014.6,
+                    "teacher": "叶华文",
+                    "id": 220,
+                    "name": "吴珍辉"
+                },
+                {
+                    "graduateTime": 2015.6,
+                    "teacher": "叶华文",
+                    "id": 221,
+                    "name": "李志宇"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "叶华文",
+                    "id": 222,
+                    "name": "张娟"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "朱红求",
+                    "id": 223,
+                    "name": "李富有"
+                },
+                {
+                    "graduateTime": 2017.6,
+                    "teacher": "桂卫华",
+                    "id": 224,
+                    "name": "欧玛尔"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 225,
+                    "name": "阮文中(越南)"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 226,
+                    "name": "阿农达(蒙古)"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 227,
+                    "name": "侯小超"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "彭涛",
+                    "id": 228,
+                    "name": "廖粤峰"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 229,
+                    "name": "陈宇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 230,
+                    "name": "常惜阳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 231,
+                    "name": "张凤雪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 232,
+                    "name": "刘晓凡"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 233,
+                    "name": "潘卓夫"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 234,
+                    "name": "贺卓"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "粟梅",
+                    "id": 235,
+                    "name": "唐忠廷"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "粟梅",
+                    "id": 236,
+                    "name": "郭斌"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈宁",
+                    "id": 237,
+                    "name": "李彬艳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 238,
+                    "name": "杨超"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 239,
+                    "name": "潘冬"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "郭宇骞",
+                    "id": 240,
+                    "name": "周荣佩"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 241,
+                    "name": "胡恩泽"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 242,
+                    "name": "黄毅"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "粟梅",
+                    "id": 243,
+                    "name": "朱奇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 244,
+                    "name": "石书琪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 245,
+                    "name": "向晓燕"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 246,
+                    "name": "张进"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 247,
+                    "name": "彭翔宇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 248,
+                    "name": "艾明曦"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 249,
+                    "name": "韩洁"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 250,
+                    "name": "熊泉"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 251,
+                    "name": "曹跃"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "叶华文",
+                    "id": 252,
+                    "name": "李蒙"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 253,
+                    "name": "陈俊名"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 254,
+                    "name": "黄兆可"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 255,
+                    "name": "李理"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 256,
+                    "name": "李灵"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 257,
+                    "name": "刘永露"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "粟梅",
+                    "id": 258,
+                    "name": "柳张杰"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 259,
+                    "name": "楚晓艳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 260,
+                    "name": "李欣"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 261,
+                    "name": "吴仁超"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 262,
+                    "name": "张海峰"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 263,
+                    "name": "李中美"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈宁",
+                    "id": 264,
+                    "name": "戴佳阳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 265,
+                    "name": "谢森"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 266,
+                    "name": "朱高峰"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 267,
+                    "name": "尹进田"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 268,
+                    "name": "薛永飞"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 269,
+                    "name": "熊文静"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "彭涛",
+                    "id": 270,
+                    "name": "但汉兵"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 271,
+                    "name": "陈祖国"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 272,
+                    "name": "许天翔"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 273,
+                    "name": "岳伟超"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 274,
+                    "name": "杨笑悦"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 275,
+                    "name": "梁壹厅"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 276,
+                    "name": "周成群"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 277,
+                    "name": "吴志敏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 278,
+                    "name": "邓子畏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "粟梅",
+                    "id": 279,
+                    "name": "许新东"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "彭涛",
+                    "id": 280,
+                    "name": "赵林"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 281,
+                    "name": "侯海良"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 282,
+                    "name": "李文彬"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈宁",
+                    "id": 283,
+                    "name": "彭俊洁"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "岑丽辉",
+                    "id": 284,
+                    "name": "陈佳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "岑丽辉",
+                    "id": 285,
+                    "name": "张迪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "岑丽辉",
+                    "id": 286,
+                    "name": "卢楚杰"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "岑丽辉",
+                    "id": 287,
+                    "name": "曾宁俊"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈宁",
+                    "id": 288,
+                    "name": "罗书寒"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈宁",
+                    "id": 289,
+                    "name": "周佳琪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈晓方",
+                    "id": 290,
+                    "name": "杨焕"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 291,
+                    "name": "何磊"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 292,
+                    "name": "易遵辉"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 293,
+                    "name": "陈奥"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 294,
+                    "name": "方怡静"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 295,
+                    "name": "黄利双"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 296,
+                    "name": "潘冬"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 297,
+                    "name": "周刚"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "郭宇骞",
+                    "id": 298,
+                    "name": "陈延英"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "郭宇骞",
+                    "id": 299,
+                    "name": "杨纪念"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 300,
+                    "name": "王畅"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 301,
+                    "name": "叶子聪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 302,
+                    "name": "曾琦"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 303,
+                    "name": "曹星宇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 304,
+                    "name": "党伟然"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 305,
+                    "name": "陈东阳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 306,
+                    "name": "严文莉"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 307,
+                    "name": "李金鹏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 308,
+                    "name": "谢禁"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 309,
+                    "name": "池浩天"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 310,
+                    "name": "陈美男"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 311,
+                    "name": "周家达"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 312,
+                    "name": "张亦弛"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 313,
+                    "name": "胡啸旭"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 314,
+                    "name": "李玺"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 315,
+                    "name": "张炜"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 316,
+                    "name": "周舒清"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 317,
+                    "name": "付新燃"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 318,
+                    "name": "周文孝"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 319,
+                    "name": "许志伟"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 320,
+                    "name": "陈伟强"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "彭涛",
+                    "id": 321,
+                    "name": "方帝凯"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "彭涛",
+                    "id": 322,
+                    "name": "提军伟"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙尧",
+                    "id": 323,
+                    "name": "姜利"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 324,
+                    "name": "高小亮"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 325,
+                    "name": "牛亚辉"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 326,
+                    "name": "贺卓"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 327,
+                    "name": "王紫勋"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王璐珩",
+                    "id": 328,
+                    "name": "朱亚晨"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王璐珩",
+                    "id": 329,
+                    "name": "吕丹丹"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 330,
+                    "name": "向彭"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 331,
+                    "name": "张贺"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 332,
+                    "name": "吕星晓"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 333,
+                    "name": "黄蕾"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 334,
+                    "name": "陈冠余"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 335,
+                    "name": "胡芳香"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 336,
+                    "name": "张鹏程"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 337,
+                    "name": "孙克楠"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 338,
+                    "name": "夏海兵"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 339,
+                    "name": "金发岗"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 340,
+                    "name": "保江"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 341,
+                    "name": "俞金晶"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 342,
+                    "name": "凌浩宇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 343,
+                    "name": "蒋珂"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 344,
+                    "name": "肖精灵"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 345,
+                    "name": "张杏婵"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 346,
+                    "name": "刘松"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 347,
+                    "name": "赵婷婷"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 348,
+                    "name": "李德昀"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 349,
+                    "name": "周雷"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 350,
+                    "name": "李翔鑫"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 351,
+                    "name": "洪松涛"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 352,
+                    "name": "罗聪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 353,
+                    "name": "谢婷玉"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 354,
+                    "name": "钱灏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 355,
+                    "name": "孙涛"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 356,
+                    "name": "刘一顺"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 357,
+                    "name": "何小宇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 358,
+                    "name": "杜城龙"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 359,
+                    "name": "郑国梁"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 360,
+                    "name": "张凤雪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 361,
+                    "name": "李学鹏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 362,
+                    "name": "叶建林"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "袁小锋",
+                    "id": 363,
+                    "name": "周姣"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "周晓君",
+                    "id": 364,
+                    "name": "黄淼"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "周晓君",
+                    "id": 365,
+                    "name": "周佳佳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 366,
+                    "name": "程菲"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 367,
+                    "name": "周涛"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 368,
+                    "name": "吴书君"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 369,
+                    "name": "龚娟"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 370,
+                    "name": "章敏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "岑丽辉",
+                    "id": 371,
+                    "name": "曹安康"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "岑丽辉",
+                    "id": 372,
+                    "name": "夏明"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈晓方",
+                    "id": 373,
+                    "name": "雷勇祥"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈晓方",
+                    "id": 374,
+                    "name": "万晓雪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈晓方",
+                    "id": 375,
+                    "name": "朱琛豪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "陈晓方",
+                    "id": 376,
+                    "name": "钱荧灿"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 377,
+                    "name": "朱霁霖"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "桂卫华",
+                    "id": 378,
+                    "name": "肖鹏"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "郭宇骞",
+                    "id": 379,
+                    "name": "吴骞"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "郭宇骞",
+                    "id": 380,
+                    "name": "范影"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "郭宇骞",
+                    "id": 381,
+                    "name": "沈雅雯"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 382,
+                    "name": "万方兴"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "贺建军",
+                    "id": 383,
+                    "name": "刘新"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 384,
+                    "name": "刘金狮"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 385,
+                    "name": "郭宇浩"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 386,
+                    "name": "沈宇航"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "蒋朝辉",
+                    "id": 387,
+                    "name": "戴哲民"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李繁飙",
+                    "id": 388,
+                    "name": "胡伟治"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李繁飙",
+                    "id": 389,
+                    "name": "朱昱鑫"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李繁飙",
+                    "id": 390,
+                    "name": "游维德"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 391,
+                    "name": "杨红川"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 392,
+                    "name": "赵昱鑫"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 393,
+                    "name": "童莉鸿"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 394,
+                    "name": "柳元辉"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "李勇刚",
+                    "id": 395,
+                    "name": "马蕾"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 396,
+                    "name": "周志豪"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 397,
+                    "name": "李国仁"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "年晓红",
+                    "id": 398,
+                    "name": "陈银胜"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "彭涛",
+                    "id": 399,
+                    "name": "张境容"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙备",
+                    "id": 400,
+                    "name": "杨威"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "孙备",
+                    "id": 401,
+                    "name": "陈洪湖"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 402,
+                    "name": "刘亦玲"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 403,
+                    "name": "唐励雍"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 404,
+                    "name": "史伟东"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "唐朝晖",
+                    "id": 405,
+                    "name": "王阳"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王璐珩",
+                    "id": 406,
+                    "name": "吴飞"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 407,
+                    "name": "宋皓轩"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 408,
+                    "name": "张宇"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 409,
+                    "name": "熊盼"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王晓丽",
+                    "id": 410,
+                    "name": "宋晨"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 411,
+                    "name": "王思哲"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 412,
+                    "name": "杨海兵"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 413,
+                    "name": "孙家舟"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 414,
+                    "name": "吴东哲"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "王雅琳",
+                    "id": 415,
+                    "name": "尚丹丹"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 416,
+                    "name": "李闯"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "谢永芳",
+                    "id": 417,
+                    "name": "张骞"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 418,
+                    "name": "张简熙"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 419,
+                    "name": "罗仔明"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 420,
+                    "name": "胡哲"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "徐德刚",
+                    "id": 421,
+                    "name": "蔡海明"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 422,
+                    "name": "魏焱烽"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 423,
+                    "name": "施佳晖"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "阳春华",
+                    "id": 424,
+                    "name": "秦瑞"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "叶华文",
+                    "id": 425,
+                    "name": "胡峰"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "叶华文",
+                    "id": 426,
+                    "name": "万能"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "周晓君",
+                    "id": 427,
+                    "name": "张润东"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "周晓君",
+                    "id": 428,
+                    "name": "杨珂"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "周晓君",
+                    "id": 429,
+                    "name": "龙建朋"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "周晓君",
+                    "id": 430,
+                    "name": "王启安"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 431,
+                    "name": "王斐"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 432,
+                    "name": "吴植亮"
+                },
+                {
+                    "graduateTime": "在读",
+                    "teacher": "朱红求",
+                    "id": 433,
+                    "name": "邹胜男"
+                }
+            ]
+
+        });
+    </script>
+
+    <script>
+        $('#table2').bootstrapTable({
+
+            pagination: 'true'
+            , pageSize: 20
+            , pageList: 'false'
+
+            , columns: [{
+                field: 'id',
+                title: '序号'
+                , width: '15%'
+            }, {
+                field: 'name',
+                title: '姓名'
+                , width: '20%'
+
+            }, {
+                field: 'teacher',
+                title: '导师姓名'
+                , width: '20%'
+
+            }, {
+                field: 'unit',
+                title: '联合培养单位'
+                , width: '45%'
+            },]
+            , data: [
+                {
+                    "major": "控制科学与工程",
+                    "name": "李中美",
+                    "student_id": 154601002,
+                    "id": 1,
+                    "college": "信息科学与工程学院",
+                    "teacher": "桂卫华",
+                    "unit": "美国波士顿大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "朱奇",
+                    "student_id": 164601009,
+                    "id": 2,
+                    "college": "信息科学与工程学院",
+                    "teacher": "粟  梅",
+                    "unit": "新西南奥克兰大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "韩洁",
+                    "student_id": 164601003,
+                    "id": 3,
+                    "college": "信息科学与工程学院",
+                    "teacher": "阳春华",
+                    "unit": "澳大利亚阿德莱德大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "但汉兵",
+                    "student_id": 144601008,
+                    "id": 4,
+                    "college": "信息科学与工程学院",
+                    "teacher": "彭  涛",
+                    "unit": "英国诺丁汉大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "谢世文",
+                    "student_id": 124601014,
+                    "id": 5,
+                    "college": "信息科学与工程学院",
+                    "teacher": "谢永芳",
+                    "unit": "美国韦恩州立大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "杨为",
+                    "student_id": 124611130,
+                    "id": 6,
+                    "college": "信息科学与工程学院",
+                    "teacher": "谢永芳",
+                    "unit": "英国纽卡斯尔大学"
+                },
+                {
+                    "major": "计算机科学与技术",
+                    "name": "赵贵虎",
+                    "student_id": 104610135,
+                    "id": 7,
+                    "college": "信息科学与工程学院",
+                    "teacher": "桂卫华",
+                    "unit": "美国哥伦比亚大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "何明芳",
+                    "student_id": 104601022,
+                    "id": 8,
+                    "college": "信息科学与工程学院",
+                    "teacher": "贺建军",
+                    "unit": "美国纽约大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "李沛",
+                    "student_id": 114601015,
+                    "id": 9,
+                    "college": "信息科学与工程学院",
+                    "teacher": "阳春华",
+                    "unit": "澳大利亚科廷大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "唐小林",
+                    "student_id": 114601802,
+                    "id": 10,
+                    "college": "信息科学与工程学院",
+                    "teacher": "阳春华",
+                    "unit": "澳大利亚卧龙岗大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "侯小超",
+                    "student_id": 174601021,
+                    "id": 11,
+                    "college": "信息科学与工程学院",
+                    "teacher": "孙  尧",
+                    "unit": "新加坡南洋理工大学"
+                },
+                {
+                    "major": "控制科学与工程",
+                    "name": "唐忠廷",
+                    "student_id": 174601009,
+                    "id": 12,
+                    "college": "信息科学与工程学院",
+                    "teacher": "粟  梅",
+                    "unit": "丹麦奥尔堡大学"
+                }
+            ]
+        });
+    </script>
+    <script>
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+        var key = GetQueryString("key");
+        var article1 = document.querySelector('#zaidu');
+        var article2 = document.querySelector('#lianhe');
+
+        var buttons = document.querySelector('#listGroup1').querySelectorAll('p');  //侧边栏
+
+        if (key == '1') {
+            article1.style.display = 'block';
+            article2.style.display = 'none';
+
+            buttons[0].classList.add('active');
+            buttons[1].classList.remove('active');
+        }
+        else if (key == '2') {
+            article1.style.display = 'none';
+            article2.style.display = 'block';
+
+            buttons[0].classList.remove('active');
+            buttons[1].classList.add('active');
+        }
+
+        //点击侧边栏
+
+        for (var i = 0; i < buttons.length; ++i) {
+            buttons[i].onclick = function () {
+                var index = this.getAttribute('data-index');
+                if (index == '1') {
+                    article1.style.display = 'block';
+                    article2.style.display = 'none';
+
+                    buttons[0].classList.add('active');
+                    buttons[1].classList.remove('active');
+                }
+                else if (index == '2') {
+                    article1.style.display = 'none';
+                    article2.style.display = 'block';
+
+                    buttons[0].classList.remove('active');
+                    buttons[1].classList.add('active');
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

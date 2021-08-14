@@ -1,0 +1,1875 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>控制工程研究所</title>
+    <link rel="shortcut icon" type="image/icon" href="image/icon/1.png" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="中南大学, 中南, 中南大学控制工程研究所, 控制工程研究所, 有色冶金自动化教育部工程研究中心, 有色冶金自动化, 教育部工程研究中心, CSU, ICE">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link href="css/myCss.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- 首行logo -->
+    <div class="container">
+        <div class="logotop">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-xs-offset-8 col-md-offset-8 col-sm-offset-8"
+                style="padding-left: 50px; padding-right: 0px; ">
+                <div style="height: 30px;  margin-top: 20px;">
+                    <p class="text-center" id="show_time" style="color: aliceblue;"></p>
+                </div>
+                <form class="navbar-form">
+                    <div style="width: 30%;float: right;">
+                        <button type="submit" class="btn btn-default text-center">搜索</button>
+                    </div>
+                    <div class="form-group" style="width: 60%;float: right;">
+                        <input type="text" class="form-control" placeholder="站内搜索" style="width: 90%;">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 首行logo -->
+
+    <!-- 导航栏及大图 -->
+    <div class="container"
+        style="margin-top: 5px; margin-bottom: 40px; margin-left:auto; margin-right: auto;  overflow:visible; position:relative;">
+        <div class="container daohang">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-12"
+                    style="margin-bottom: 5px;padding-left: 0px; padding-right: 0px;" id="daohang">
+                    <ul id="mainMenu" class="nav nav-pills nav-justified" role="tablist"
+                        style="background-color: rgb(255, 255, 255); margin: 0px;">
+                        <li role="presentation">
+                            <a href="index.html" target="_self">首页</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="overview.html" target="_self">中心简介</a>
+                        </li>
+                        <li role="presentation" class="dropdown active">
+                            <a href="search.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">学术研究<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="search.html?key=1" target="_self">研究方向</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="search.html?key=2" target="_self">研究项目</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="search.html?key=3" target="_self">科研成果</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="team.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">机构队伍<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=1" target="_self">组织机构</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=2" target="_self">技术委员会成员</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=3" target="_self">科研队伍</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=4" target="_self">固定研究人员</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="team.html?key=5" target="_self">流动人员</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="student.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">人才培养<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="student.html?key=1" target="_self">学生名单</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="student.html?key=2"
+                                        target="_self">联合培养学生名单</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="communication.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">开放交流<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="communication.html?key=1"
+                                        target="_self">学术交流</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="communication.html?key=2"
+                                        target="_self">国际交流与合作</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="communication.html?key=3"
+                                        target="_self">111引智计划</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="communication.html?key=4"
+                                        target="_self">产学研用</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="dropdown">
+                            <a href="links.html?key=1" target="_self" class="dropdown-toggle"
+                                data-toggle="dropdown">资源链接<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu" style="margin: 0px;">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="links.html?key=1" target="_self">征文信息</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="links.html?key=2" target="_self">期刊杂志</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="links.html?key=3" target="_self">国内外会议</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="presentation">
+                            <a href="contact.html" target="_self">联系我们</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12" style="padding-left: 0px; padding-right: 0px;">
+                    <img src="image/logo/logo6.png" class="img-responsive center-block" style="margin-top: 1px" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航栏及大图 -->
+
+    <div class="container" style="margin-left:auto; margin-right: auto; margin-top:30x;">
+        <div class="container mainbox">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-middle">
+                            <h3>学术研究</h3>
+                        </div>
+                    </div>
+
+                    <div class="list-group" id="listGroup1" role="tablist">
+                        <p class="list-group-item leftmenu" data-index="1">研究方向 </p>
+                        <p class="list-group-item leftmenu" data-index="2">研究项目</p>
+                        <p class="list-group-item leftmenu" data-index="3">科研成果</p>
+                    </div>
+
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9">
+                    <div class="myArticle well" id='yanjiufangxiang' style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li class="active">研发方向</li>
+                        </ol>
+
+                        <h3 class="text-center">研发方向</h3>
+                        <br />
+                        <div id="search1">
+                            <h4><strong>研发方向一：复杂有色冶金过程建模与优化控制技术</strong></h4>
+                            <p> 研究有色冶金过程智能集成建模方法、工业大数据分析与处理方法、知识自动化系统及优化控制关键技术与系统等。</p>
+                            <br />
+                            <h4><strong>研发方向二：冶金过程工艺参数在线检测技术</strong></h4>
+                            <p> 研究基于机器视觉、谱分析、过程数据等的关键工艺参数在线检测装置与系统。</p>
+                            <br />
+                            <h4><strong>研发方向三：铝电解过程智能控制技术</strong></h4>
+                            <p> 研究基于人工智能技术的铝电解过程能效优化控制及信息化等。</p>
+                            <br />
+                            <h4><strong>研发方向四：过程流程模拟与热工设备仿真</strong></h4>
+                            <p> 研究大型热工设备仿真与可视化、数字冶金与虚拟实现等。</p>
+                            <br />
+                            <h4><strong>研发方向五：先进节能控制技术与装置</strong></h4>
+                            <p> 研究绿色电能变换装置和电气节能控制技术。</p>
+                        </div>
+                        <br />
+
+                    </div>
+
+                    <div class="myArticle well" id="yanjiuxiangmu" style="display:none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li class="active">研究项目</li>
+                        </ol>
+                        <h3 class="text-center">部分研究项目</h3>
+                        <br />
+                        <table class="table-bordered text-center" id="table1" data-toggle="table">
+                        </table>
+                    </div>
+
+                    <div class="myArticle well" id="keyanchengguo" style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li class="active">科研成果</li>
+                        </ol>
+
+                        <div class="container-fluid" id="chengguoGroup">
+                            <h3>科研成果</h3>
+                            <br />
+                            <h4 data-index="1">
+                                <span class="glyphicon glyphicon-play" style="color: rgb(51, 122, 183);"></span>
+                                <span style="color: rgb(51, 122, 183);" class="xiahuaxian"> 主要科研成果</span>
+                                <span class="pull-right"><small>置顶</small></span>
+                            </h4>
+                            <h4 data-index="2">
+                                <span class="glyphicon glyphicon-play" style="color: rgb(51, 122, 183);"></span>
+                                <span style="color: rgb(51, 122, 183);" class="xiahuaxian"> 科研奖励</span>
+                                <span class="pull-right"><small>置顶</small></span>
+                            </h4>
+                            <h4 data-index="3">
+                                <span class="glyphicon glyphicon-play" style="color: rgb(51, 122, 183);"></span>
+                                <span style="color: rgb(51, 122, 183);" class="xiahuaxian"> 部分发明专利</span>
+                                <span class="pull-right"><small>置顶</small></span>
+                            </h4>
+                            <h4 data-index="4">
+                                <span class="glyphicon glyphicon-play" style="color: rgb(51, 122, 183);"></span>
+                                <span style="color: rgb(51, 122, 183);" class="xiahuaxian"> 部分发表论文</span>
+                                <span class="pull-right"><small>置顶</small></span>
+                            </h4>
+                        </div>
+                    </div>
+                    <!-- 以下是子文章 -->
+                    <div class="myArticle well text-justify" id="zhuyaokeyan" style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li><span style="color: rgb(51, 122, 183);" data-flag="1" class="xiahuaxian">科研成果</span>
+                            </li>
+                            <li class="active">主要科研成果</li>
+                        </ol>
+
+                        <h3 class="text-center">主要科研成果</h3>
+                        <br />
+
+                        <p>
+                            中心面向国家有色金属工业节能降耗减排的重大需求，研发成果成功应用于铜、铝、铅、锌等有色金属冶炼过程，节能降耗效果显著，先后获得国家科技进步奖7项，省部级科技奖32项。中心共承担科研项目120项，其中主持承担国家级科研项目76项，合同金额达1.26亿元。
+                        </p>
+                        <p>
+                            中心出版专著8部，发表学术论文834篇，其中发表SCI期刊论文526篇，其中IFAC会刊、IEEE汇刊及矿物加工TOP 1期刊Minerals Engineering、湿法冶金TOP
+                            1期刊Hydrometallurgy等国际顶级期刊的高水平论文126篇。中心申请国家发明专利146项，授权国家发明专利87项，登记国家计算机软件著作权68件。
+                        </p>
+
+                        <br />
+
+                        <h3><strong>代表性研发成果</strong></h3>
+                        <br />
+                        <h3 style="margin-bottom: 20px;">①铝电解槽高效节能控制技术</h3>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了低电压铝电解过程的工艺技术条件综合优化技术</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了低电压铝电解过程的协同优化临界稳定控制技术</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 开发了全分布式铝电解控制系统</h4>
+                        <p>
+                            相关成果先后在国内外铝电解企业实施推广应用，应用面已达60%以上，产生了巨大的节电效益；平均槽电压降低
+                            200~400mV、吨铝直流电耗降低600~1200kWh，21条生产线吨铝电耗降低700kWh；近三年共计节电54.8亿kWh，新增利税26.2亿元。曾获国家科技进步二等奖2项。
+                        </p>
+                        <div>
+                            <div style="float: left; width: 50%; ">
+                                <img src="image/search/3-1-1.1.jpg" class="img-responsive center-block"
+                                    style="height:150px" width="270px" alt="Image">
+                            </div>
+                            <div style="float: left; width: 50%; ">
+                                <img src="image/search/3-1-1.2.jpg" class="img-responsive center-block"
+                                    style="height:150px" alt="Image">
+                            </div>
+
+                            <div style="float: left; width: 100%">
+                                <img src="image/search/3-1-1.3.jpg" class="img-responsive center-block"
+                                    style="height:210px;width: 600px; margin-top: 20px; margin-bottom: 20px;"
+                                    alt="Image">
+                            </div>
+                        </div>
+
+
+                        <h3 style="margin-bottom: 20px;">②锌电解过程节能控制技术</h3>
+                        <h4><span class="glyphicon glyphicon-play"></span> 发明了电力负荷分时优化技术和锌电解生产工艺条件优化控制技术，改变了传统的恒流电解生产方式
+                        </h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了电能损耗最小的整流机组运行优化控制技术</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 研发了大型锌湿法电解节能综合优化控制系统</h4>
+                        <p>
+                            相关技术成功应用于我国最大、世界第二大锌冶炼厂—株洲冶炼集团(电锌50万吨/年，占全国20%、全球3.5%)，节电1.1亿kWh/年，经济效益达7642万元/年，促进了分时供电电解生产方式在我国锌冶炼行业的应用(云南云冶锌业股份有限公司、葫芦岛锌厂)，推动了我国锌冶炼行业的技术进步；曾获国家科学技术进步二等奖1项。
+                        </p>
+                        <div>
+                            <div style="float: left;width: 50%;">
+                                <img src="image/search/3-1-2.1.jpg" class="img-responsive center-block"
+                                    style="height:200px; width:300px;" alt="Image">
+                            </div>
+                            <div style="float: left;width: 50%;">
+                                <img src="image/search/3-1-2.2.jpg" class="img-responsive center-block"
+                                    style="height:200px ;width:300px;" alt="Image">
+                            </div>
+                            <div style="float: left; width: 50%">
+                                <img src="image/search/3-1-2.3.png" class="img-responsive center-block"
+                                    style="height:200px; width:300px; margin-top: 20px; " alt="Image">
+                            </div>
+                            <div style="float: left; width: 50%">
+                                <img src="image/search/3-1-2.4.jpg" class="img-responsive center-block"
+                                    style="height:200px; width:300px; margin-top: 20px; margin-bottom: 20px;"
+                                    alt="Image">
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+
+                        <h3 style="margin-bottom: 20px;">③铝合金构件制备重大装备控制技术</h3>
+                        <h4><span class="glyphicon glyphicon-play"></span> 发明了万吨多向模锻水压机欠压量在线检测方法，攻克了模锻欠压量长期无法在线检测的难题
+                        </h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 发明了万吨多向模锻水压机高精度定位控制技术</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了炉内构件温度的非接触式测量技术，解决了构件温度在线检测难题</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了大型立式淬火炉多区段高精度高均匀性温度控制技术</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 研发了铝合金构件制备重大装备控制系统</h4>
+                        <p>
+                            该成果成功应用于我国最重要的铝加工基地—西南铝业集团1万吨多向模锻水压机、3万吨模锻水压机和24m，31m大型立式淬火炉，高了大型航空航天构件制备的精度和成品率，经济效益达4210万元/年，为企业成为波音公司的供应商提供了技术支撑，提高了企业国际竞争能力；曾获国家科学技术进步二等奖1项。
+                        </p>
+                        <div>
+                            <div style="float: left; width: 40%">
+                                <img src="image/search/3-1-3.1.jpg" class="img-responsive center-block"
+                                    style="height:200px; margin-top: 20px; " alt="Image">
+                            </div>
+                            <div style="float: left; width: 60%">
+                                <img src="image/search/3-1-3.2.jpg" class="img-responsive center-block"
+                                    style="height:200px; margin-top: 20px; margin-bottom: 20px;" alt="Image">
+                            </div>
+                        </div>
+                        <br />
+
+                        <h3 style="margin-bottom: 20px;">④铜冶炼过程优化控制技术</h3>
+                        <h4><span class="glyphicon glyphicon-play"></span>
+                            提出了铜精矿配料的软约束调整优化技术，解决了多约束工程优化应用难题，为复杂矿源条件下的高效冶炼创造了条件</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 发明了铜闪速熔炼操作模式优化控制技术，提高了闪速炉对铜精矿的适用范围</h4>
+                        <p>
+                            相关技术已应用于我国最大铜冶炼厂—江西铜业集团（铜产量105万吨/年，占全国的23%），提高了铜闪速炉的原料适用性和资源回收率，闪速炉单台产能世界第一；减排效果显著：尾气排放SO2含量由300ppm降低到
+                            &lt;
+                            200ppm，减排33%，减少SO2排放量8.91万m3/年；经济效益达5039万元/年，多回收铜500吨/年，为我国铜工业由技术引进转变为技术输出提供了支撑（日本、芬兰、澳大利亚、伊朗、巴基斯坦等国）；曾获国家科技进步二等奖1项
+                        </p>
+                        <div>
+                            <div style="float: left; width: 50%">
+                                <img src="image/search/3-1-4.1.jpg" class="img-responsive center-block"
+                                    style="height:200px; margin-top: 5px; " alt="Image">
+                            </div>
+                            <div style="float: left; width: 50%">
+                                <img src="image/search/3-1-4.2.jpg" class="img-responsive center-block"
+                                    style="height:200px; margin-top: 5px; margin-bottom: 20px;" alt="Image">
+                            </div>
+                        </div>
+                        <br />
+
+                        <h3 style="margin-bottom: 20px;">⑤重金属废水处理过程运行优化关键技术与自动化装置 </h3>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了电化学工艺优化技术，多工序协调优化控制技术和多重金属离子浓度在线检测技术</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 研制了全流程协调优化控制系统，多重金属离子在线检测分析仪和深度净化自动化成套装置</h4>
+                        <p>
+                            相关技术成功应用于全国200多项重金属废水处理工程，覆盖全国60%以上铜冶炼、50%以上锌冶炼、50%以上锑冶炼、40%以上铅冶炼及30%以上黄金冶炼产能的废水处理，实现了铜铅锌锑钨金等主要有色金属企业的废水处理，并推广应用到电镀、工业园区等领域，市场占有率逐年稳步提升，已经成为重金属废水处理的关键支撑技术。曾获湖南省技术发明一等奖1项，已申报2018年国家技术发明二等奖。
+                        </p>
+                        <div>
+                            <div style="float: left; width: 75%">
+                                <img src="image/search/3-1-5.1.jpg" class="img-responsive center-block"
+                                    style="height:300px; margin-top: 5px; " alt="Image">
+                            </div>
+                            <div style="float: left; width: 25%">
+                                <img src="image/search/3-1-5.2.jpg" class="img-responsive center-block"
+                                    style="height:300px; margin-top: 5px; margin-bottom: 20px;" alt="Image">
+                            </div>
+                        </div>
+                        <br />
+
+                        <h3 style="margin-bottom: 20px;">⑥矩阵变换器系列装置 </h3>
+                        <h4><span class="glyphicon glyphicon-play"></span> 提出了矩阵变换器的系列优化电路拓扑结构,
+                            基于数学构造的通用调制理论和基于构造思想的一般性稳定化方法。</h4>
+                        <h4><span class="glyphicon glyphicon-play"></span> 研制了低压系列矩阵变换器产品和国内首台兆瓦级中高压矩阵变换器产品。</h4>
+                        <div>
+                            <div style="float: left; width: 50%">
+                                <img src="image/search/3-1-6.1.jpg" class="img-responsive center-block"
+                                    style="height:180px; margin-top: 5px; " alt="Image">
+                            </div>
+                            <div style="float: left; width: 50%">
+                                <img src="image/search/3-1-6.2.jpg" class="img-responsive center-block"
+                                    style="height:180px; margin-top: 5px; margin-bottom: 20px;" alt="Image">
+                            </div>
+                        </div>
+                        <p>
+                            低压矩阵变换器产品已在长沙海德机电科技有限公司、长沙贝士德电气科技有限公司、湖南沃森电气有限公司和长沙威克电力技术科技有限公司大规模应用于电机驱动和新能源发电等场合，新型中高压矩阵变换器已在徐州中矿大传动与自动化有限公司成功应用于异步电机的驱动；节能效果突出，经济和社会效益显著，累计新增销售额5840万元。2017年获教育部高等学校科学研究优秀成果奖-自然科学二等奖一项。
+                        </p>
+
+                    </div>
+
+                    <div class="myArticle well" id="jiangli" style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li><span style="color: rgb(51, 122, 183);" data-flag="1" class="xiahuaxian">科研成果</span>
+                            </li>
+                            <li class="active">科研奖励</li>
+                        </ol>
+
+                        <h3 class="text-center">科研奖励</h3>
+                        <br />
+
+                        <table class="table-bordered text-center" id="table2" data-toggle="table">
+                        </table>
+                    </div>
+
+                    <div class="myArticle well" id="zhuanli" style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li><span style="color: rgb(51, 122, 183);" data-flag="1" class="xiahuaxian">科研成果</span>
+                            </li>
+                            <li class="active">发明专利</li>
+                        </ol>
+
+                        <h3 class="text-center">部分发明专利</h3>
+                        <br />
+
+                        <table class="table-bordered text-center" id="table3" data-toggle="table">
+                        </table>
+                    </div>
+
+                    <div class="myArticle well" id="lunwen" style="display: none;">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html" target="_self">首页</a></li>
+                            <li><span style="color: rgb(51, 122, 183);" data-flag="1" class="xiahuaxian">科研成果</span>
+                            </li>
+                            <li class="active">发表论文</li>
+                        </ol>
+
+                        <h3 class="text-center">部分发表论文</h3>
+                        <br />
+
+                        <ol id="papers">
+                            <li>
+                                <p style="text-indent: 0px;margin: 0px;">Shiwen Xie, Yongfang Xie, Tingwen Huang, Weihua
+                                    Gui and Chunhua Yang, Coordinated
+                                    Optimization for The Descent Gradient of Technical Index in the Iron Removal
+                                    Process,
+                                    IEEE Transactions on Cybernetics, </p>
+                                DOI:10.1109/TCYB.2018.2833805, 2018.
+                            </li>
+                            <li>
+                                <p style="text-indent: 0px;margin: 0px;">Shiwen Xie, Yongfang Xie, Hao Ying, Weihua
+                                    Gui and Chunhua Yang, A Hybrid Control
+                                    Strategy for Real-time Control of the Iron Removal Process of the Zinc
+                                    Hydrometallurgy
+                                    Plants, IEEE Transactions on Industrial Informatics,</p>
+                                DOI: 10.1109/TII.2018.2815659,2018.
+                            </li>
+                            <li>Shiwen Xie, Yongfang Xie, Tingwen Huang, Weihua Gui and Chunhua Yang. Generalized
+                                Predictive Control for Industrial Process Based on Neuron Adaptive Splitting and Merging
+                                RBF Neural Network, IEEE Transactions on Industrial Electronic, vol. 66, no. 2, pp.
+                                1192-1202, 2019.</li>
+                            <li>Shiwen Xie, Yongfang Xie, Fanbiao Li, Chunhua Yang and Weihua Gui, Optimal Setting and
+                                Control for Iron Removal Process Based on Adaptive Neural Network Soft-Sensor, IEEE
+                                Transactions on Systems, Man, and Cybernetics: Systems, DOI: 10.1109/TSMC.2018. 2815580,
+                                2018.</li>
+                            <li>Shiwen Xie, Yongfang Xie, Weihua Gui and Chunhua Yang, Weighted-coupling CSTR Modeling
+                                and Model Predictive Control with Parameter Adaptive Correction for the Goethite
+                                Process, Journal of Process Control, vol. 68, pp.254-267, 2018.</li>
+                            <li>Shiwen Xie, Yongfang Xie, Chunhua Yang, Weihua Gui and Yanglin Wang, Distributed
+                                Parameter Modeling and Optimal Control of the Oxidation Rate in Iron Removal Process,
+                                Journal of Process Control, vol. 61, pp. 47-57, 2018.</li>
+                            <li>Yongfang Xie, Shiwen Xie, Yonggang Li, Chunhua Yang and Weihua Gui, Dynamic Modeling and
+                                Optimal Control of Goethite Process Based on the Rate-controlling Step, Control
+                                Engineering Practice, vol. 58, pp.54-65, 2016. </li>
+                            <li>Peng Lin, Wei Ren, Chunhua Yang and Weihua Gui, Distributed Optimization With Nonconvex
+                                Velocity Constraints, Nonuniform Position Constraints and Nonuniform Stepsizes, IEEE
+                                Transactions on Automatic Control, DOI: 10.1109/TAC.2018.2872195, 2018.</li>
+                            <li>Quan Xiong, Peng Lin, Wei Ren, Chunhua Yang and Weihua Gui, Containment Control for
+                                Discrete-Time Multiagent Systems With Communication Delays and Switching Topologies,
+                                IEEE Transactions on Cybernetics, DOI: 10.1109/TCYB.2018.2852333, 2018.</li>
+                            <li>Peng Wang, Peng Lin, Wei Ren and Yongduan Song, Distributed Subgradient-Based Multiagent
+                                Optimization With More General Step Sizes, IEEE Transactions on Automatic Control, vol.
+                                63, no. 7, pp. 2295-2302, 2018.</li>
+                            <li>Peng Lin, Wei Ren, Chunhua Yang and Weihua Gui, Distributed Consensus of Second-Order
+                                Multiagent Systems With Nonconvex Velocity and Control Input Constraints, IEEE
+                                Transactions on Automatic Control, vol. 63, no. 4, pp. 1171-1176, 2018.</li>
+                            <li>Peng Lin, Wei Ren, Hao Wang and M. Al-Saggaf Ubaid, Multiagent Rendezvous With Shortest
+                                Distance to Convex Regions With Empty Intersection: Algorithms and Experiments, IEEE
+                                Transactions on Cybernetics, DOI: 10.1109/TCYB.2018.2794506, 2018.</li>
+                            <li>Peng Lin, Wei Ren and Huijun Gao, Distributed Velocity-Constrained Consensus of
+                                Discrete-Time Multi-Agent Systems With Nonconvex Constraints, Switching Topologies, and
+                                Delays, IEEE Transactions on Automatic Control, vol. 62, no. 11, pp. 5788-5794, 2017.
+                            </li>
+                            <li>Peng Lin, Wei Ren and Jay A. Farrell, Distributed Continuous-Time Optimization:
+                                Nonuniform Gradient Gains, Finite-Time Convergence, and Convex Constraint Set, IEEE
+                                Transactions on Automatic Control, vol. 62, no. 5, pp. 2239-2253, 2017.</li>
+                            <li>Ning Chen, Jiayang Dai, Xiaofeng Yuan, Weihua Gui, Wenting Ren and Heikki N Koivo.
+                                Temperature Prediction Model for Roller Kiln by ALD-Based Double Locally Weighted Kernel
+                                Principal Component Regression, IEEE Transactions on Instrumentation and Measurement,
+                                vol. 67, no. 8, pp. 2001-2010, 2018.</li>
+                            <li>Chunhua Yang, Shijun Deng, Yonggang Li, Hongqiu Zhu and Fanbiao Li, Optimal Control for
+                                Zinc Electrowinning Process With Current Switching, IEEE Access, vol. 5, pp.
+                                24688-24697, 2017.</li>
+                            <li>Chunhua Yang, G. Deconinck, Weihua Gui and Yonggang Li, An Optimal Power-dispatching
+                                System Using Neural Networks for the Electrochemical Process of Zinc Depending on
+                                Varying Prices of Electricity, IEEE Transactions on Neural Networks, vol. 13, pp.
+                                229-236, 2002.</li>
+                            <li>Bei Sun, Chunhua Yang, Hongqiu Zhu, Yonggang Li and Weihua Gui, Modeling, Optimization,
+                                and Control of Solution Purification Process in Zinc Hydrometallurgy, IEEE/CAA Journal
+                                of Automatica Sinica, vol.5, pp.564-576, 2018.</li>
+                            <li>Zuguo Chen, Yonggang Li, Xiaofang Chen, Chunhua Yang and Weihua Gui, Semantic Network
+                                Based on Intuitionistic Fuzzy Directed Hyper-Graphs and Application to Aluminum
+                                Electrolysis Cell Condition Identification, IEEE Access, vol. 5, pp. 20145-20156, 2017.
+                            </li>
+                            <li>Bin Zhang, Chunhua Yang, Yonggang Li, Xiaoli Wang, Hongqiu Zhu and Weihua Gui, Additive
+                                Requirement Ratio Prediction Using Trend Distribution Features for Hydrometallurgical
+                                Purification Processes, Control Engineering Practice, vol. 46, pp. 10-25, 2016.</li>
+                            <li>Yonggang Li, Weihua Gui, Lay TeoKok, Hongqiu Zhu and Qinqin Chai, Optimal Control for
+                                Zinc Solution Purification Based on Interacting CSTR Models, Journal of Process Control,
+                                vol. 22, pp. 1878-1889, 2012.</li>
+                            <li>Bin Zhang, Chunhua Yang, Hongqiu Zhu, Peng Shi and Weihua Gui, Controllable-Domain-Based
+                                Fuzzy Rule Extraction for Copper Removal Process Control, IEEE Transactions on Fuzzy
+                                Systems, vol. 26, no. 3, pp. 1744-1756, 2018.</li>
+                            <li>Jiafeng Xie, Pramod Kumar Meher and Jianjun He, Low-Complexity Multiplier for GF(2^{m})
+                                Based on All-One Polynomials, IEEE Transactions on Very Large Scale Integration (VLSI)
+                                Systems, vol. 21, no. 1, pp. 168-173, 2013.</li>
+                            <li>Jiafeng Xie, Pramod Kumar Meher and Jianjun He, Hardware-Efficient Realization of
+                                Prime-Length DCT Based on Distributed Arithmetic, IEEE Transactions on Computers, vol.
+                                62, no. 6, pp. 1170-1178, 2013.</li>
+                            <li>Ling Shen, Jianjun He, Chunhua Yang, Weihua Gui and Honglei Xu, Temperature Uniformity
+                                Control of Large-Scale Vertical Quench Furnaces for Aluminum Alloy Thermal Treatment,
+                                IEEE Transactions on Control Systems Technology, vol.24, pp.24-39, 2016.</li>
+                            <li>Jinping Liu, Jiezhou He , Wuxia Zhang , Pengfei Xu and Zhaohui Tang, TCvBsISM: Texture
+                                Classification via B-Splines-Based Image Statistical Modeling, IEEE Access, vol. 6, pp.
+                                44876-44893, 2018.</li>
+                            <li>Yongfang Xie, Jia Wu, Degang Xu, Chunhua Yang and Weihua Gui, Reagent Addition Control
+                                for Stibium Rougher Flotation Based on Sensitive Froth Image Features, IEEE Transactions
+                                on Industrial Electronics, vol. 64, no. 5, pp. 4199-4206, 2017.</li>
+                            <li>28. Hui Li, Chunling Du, Youyi Wang and Yuqian Guo, Discrete-Time Optimal Reset Control
+                                for Hard Disk Drive Servo Systems, IEEE Transactions on Magnetics, vol. 45, no. 11, pp.
+                                5104-5107, 2009.</li>
+                            <li>Yong Ding, Dian Xie and Yuqian Guo, Controllability of Boolean Control Networks with
+                                Multiple Time-delays, IEEE Transactions on Control of Network Systems, DOI:
+                                10.1109/TCNS.2017.2763744, 2018.</li>
+                            <li>Yuqian Guo, Youyi Wang and Lihua Xie, Frequency-Domain Properties of Reset Systems With
+                                Application in Hard-Disk-Drive Systems, IEEE Transactions on Control Systems Technology,
+                                vol.17, no.6, pp. 1446-1453, 2009.</li>
+                            <li>Yuqian Guo, Yong Ding and Dian Xie, Invariant Subset and Set Stability of Boolean
+                                Networks Under Arbitrary Switching Signals, IEEE Transactions on Automatic Control, vol.
+                                62, no. 8, pp. 4209-4214, 2017.</li>
+                            <li>Yuqian Guo and Daizhan Cheng, Stabilization of time-varying Hamiltonian systems, IEEE
+                                Transactions on Control Systems Technology, vol. 14, no. 5, pp. 871-880, 2006.</li>
+                            <li>Yuqian Guo, Youyi Wang, Lihua Xie, Hui Li and Weihua Gui, Optimal Reset Law Design and
+                                Its Application to Transient Response Improvement of HDD Systems, IEEE Transactions on
+                                Control Systems Technology, vol. 19, no. 5, pp. 1160 – 1167, 2011.</li>
+                            <li>Yuqian Guo, Rongpei Zhou, Yuhu Wu, Weihua Gui and Chunhua Yang, Stability and Set
+                                Stability in Distribution of Probabilistic Boolean Networks, IEEE Transactions on
+                                Automatic Control, DOI: 10.1109/TAC.2018.2833170, 2018.</li>
+                            <li>Yuqian Guo, Tingting Gao, Lihua Xie, Chunling Du and Chong Jin Ong, Track-Following
+                                Control of Four-Bar Structured HDD via Parameter-Dependent Low-Frequency
+                                Precompensation, IEEE Transactions on Magnetics, vol.49, no.6, pp. 2731-2737, 2013.</li>
+                            <li>Yuqian Guo, Observability of Boolean Control Networks Using Parallel Extension and Set
+                                Reachability, IEEE Transactions on Neural Networks and Learning Systems, DOI:
+                                10.1109/TNNLS.2018.2826075, 2018.</li>
+                            <li>Yuqian Guo, Weihua Gui and Chunhua Yang, Redefined Observability Matrix for Boolean
+                                Networks and Distinguishable Partitions of State Space, Automatica, vol. 91, pp.
+                                316-319, 2018.</li>
+                            <li>Yuqian Guo, Pan Wang and Weihua Gui, Set Stability and Set Stabilization of Boolean
+                                Control Networks Based on Invariant Subsets, Automatica, vol. 61, pp. 106-112, 2015.
+                            </li>
+                            <li>Yuqian Guo, Youyi Wang and Lihua Xie, Robust Stability of Reset Control Systems with
+                                Uncertain Output Matrix, Automatica, vol. 48, no. 8, pp. 1879-1884, 2012.</li>
+                            <li>40. Yuqian Guo, Youyi Wang and Lihua Xie, Stability Analysis and Design of Reset
+                                Systems: Theory and An Application, Automatica, vol. 45, no. 2, pp. 492-497, 2009.</li>
+                            <li>Huawen Ye, Hong Wang and Haibo Wang, Stabilization of a PVTOL Aircraft and an Inertia
+                                Wheel Pendulum Using Saturation Technique, IEEE Transactions on Control Systems
+                                Technology, vol.15, no.6, pp. 1143-1150, 2007.</li>
+                            <li>Huawen Ye, Saturated Delayed Controls for Feedforward Nonlinear Systems, IEEE
+                                Transactions on Automatic Control, vol. 59, no. 6, pp. 1646-1653, 2014.</li>
+                            <li>Huawen Ye, Zhongping Jiang, Weihua Gui and Chunhua Yang, Decentralized Stabilization of
+                                Large-scale Feedforward Systems Using Saturated Delayed Controls, Automatica, vol. 48,
+                                no. 1, pp. 89-94, 2012.</li>
+                            <li>Luheng Wang, Temperature Interference Reduction for Pressure Sensor Made of Conductive
+                                Polymer Composite, IEEE Electron Device Letters, vol. 38, no. 1, pp. 123-125, 2017.</li>
+                            <li>Luheng Wang, Dandan Lv and Fei Wang, Electrode-Shared Differential Configuration for
+                                Pressure Sensor Made of Carbon Nanotube-Filled Silicone Rubber Composites, IEEE
+                                Transactions on Instrumentation and Measurement, vol. 67, no. 6, pp. 1417-1424, 2018.
+                            </li>
+                            <li>Luheng Wang, Differential Structure Realization in Piezoresistive Sensor by Designing
+                                Electrode Configurations, IEEE/ASME Transactions on Mechatronics, vol. 21, no. 3, pp.
+                                1428-1433, 2016.</li>
+                            <li>Luheng Wang, Compression-Stage-Based Differential Displacement Sensing Device, Journal
+                                of Microelectromechanical Systems, vol. 25, no. 2, pp. 241-243, 2016.</li>
+                            <li>Luheng Wang, Fei Wu and Yalin Wang, Coplanar-Electrodes-Based Differential Structure for
+                                Piezoresistive Sensor Made of Carbon Nanotube Filled Silicone Rubber Composite, IEEE
+                                Sensors Journal, vol. 18, no. 4, pp. 1403-1409, 15 Feb.15, 2018.</li>
+                            <li>Luheng Wang, Stretchable Eddy Current Noncontact Gap Sensor Based on Spiral Conductive
+                                Polymer Composite, IEEE/ASME Transactions on Mechatronics, vol. 21, no. 2, pp.
+                                1072-1079, 2016.</li>
+                            <li>Luheng Wang, Usage of Connected Structure to Eliminate Blind Area of Piezoresistive
+                                Sensor Array, IEEE Transactions on Industrial Electronics, vol. 65, no. 4, pp.
+                                3568-3575, 2018.</li>
+                            <li>Luheng Wang, Resistive Sensor Linearity Improvement Based on Change-Ratio-Decreasing and
+                                Change-Ratio-Increasing Subunits, IEEE Transactions on Instrumentation and Measurement,
+                                vol. 66, no. 7, pp. 1831-1836, 2017.</li>
+                            <li>Fanbiao Li, Chenglong Du, Chunhua Yang and Weihua Gui, Passivity-based Asynchronous
+                                Sliding Mode Control for Delayed Singular Markovian Jump Systems, IEEE Transactions on
+                                Automatic Control, vol. 63, no. 8, pp. 2715-2721 , 2018.</li>
+                            <li>Fanbiao Li, Peng Shi, Cheng-Chew Lim and Ligang Wu, Fault Detection Filtering for
+                                Nonhomogeneous Markovian Jump Systems via Fuzzy Approach, IEEE Transactions on Fuzzy
+                                Systems, vol. 26, no. 1, pp. 131-141, 2018.</li>
+                            <li>Tiebin Wu, Fanbiao Li, Chunhua Yang and Weihua Gui, Event-based Fault Detection
+                                Filtering for Complex Networked Jump Systems, IEEE/ASME Transactions on Mechatronics,
+                                vol. 23, no. 2, pp. 497-505, 2018.</li>
+                            <li>Peng Shi, Fanbiao Li, Ligang Wu and Cheng-Chew Lim, Neural Network-Based Passive
+                                Filtering for Delayed Neutral-Type Semi-Markovian Jump Systems, IEEE Transactions on
+                                Neural Networks and Learning Systems, vol. 28, no. 9, pp. 2101-2114, 2017.</li>
+                            <li>Xiaojun Zhou, Chunhua Yang and Weihua Gui, A Statistical Study on Parameter Selection of
+                                Operators in Continuous State Transition Algorithm, IEEE Transactions on Cybernetics,
+                                DOI: 10.1109/TCYB.2018.2850350,2018.</li>
+                            <li>Xin Li, Fanbiao Li, Xian Zhang, Chunhua Yang and Weihua Gui, Exponential Stability
+                                Analysis for Delayed Semi-Markovian Recurrent Neural Networks: A Homogeneous Polynomial
+                                Approach, IEEE Transactions on Neural Networks and Learning Systems, DOI:
+                                10.1109/TNNLS.2018.2830789, 2018.</li>
+                            <li>Chenglong Du, Chunhua Yang, Fanbiao Li and Weihua Gui, A Novel Asynchronous Control for
+                                Artificial Delayed Markovian Jump Systems via Output Feedback Sliding Mode Approach,
+                                IEEE Transactions on Systems, Man and Cybernetics: Systems, DOI:10.1109/TSMC.
+                                2018.2815032, 2018.</li>
+                            <li>Xiaofan Liu, Fanbiao Li, Yongfang Xie, Chunhua Yang and Weihua Gui, Guaranteed Cost
+                                Control for Descriptor Type-2 Fuzzy Systems with Stochastic Delay Distribution. IEEE
+                                Access, vol. 5, pp. 23637-23646, 2017.</li>
+                            <li>Yalin Wang, Bei Sun, Runqin Zhang, Quanmin Zhu and Fanbiao Li, Sulfur Flotation
+                                Performance Recognition Based on Hierarchical Classification of Local Dynamic and Static
+                                Froth Features, IEEE Access, vol. 6, pp. 14019-14029, 2018.</li>
+                            <li>Xiaofeng Yuan, Biao Huang, Yalin Wang, Chunhua Yang and Weihua Gui, Deep Learning Based
+                                Feature Representation and Its Application for Soft Sensor Modeling with Variable-wise
+                                Weighted SAE. IEEE Transactions on Industrial and Informatics, vol. 14, no. 7, pp.
+                                3235-3243, 2018.</li>
+                            <li>Xiaofeng Yuan, Zhiqiang Ge, Zhihuan Song, Yalin Wang, Chunhua Yang, and Weihua Gui,
+                                Weighted Linear Dynamic System-based Feature Extraction for Nonlinear Dynamic Processes
+                                and Its Application for Soft Sensor Modeling, IEEE Transactions on Industrial
+                                Electronics, vol. 65, no. 2, pp. 1508-1517, 2018.</li>
+                            <li>Xiaofeng Yuan and Yalin Wang, Probabilistic Nonlinear Soft Sensor Modeling Based on
+                                Generative Topographic Mapping Regression, IEEE Access, vol. 6, pp. 10445-10452, 2018.
+                            </li>
+                            <li>Sen Xie, Chunhua Yang, Xiaofeng Yuan, Xiaoli Wang and Yongfang Xie, Layered Online Data
+                                Reconciliation Strategy with Multiple Modes for Industrial Processes, Control
+                                Engineering Practice, vol. 77, pp. 63-72, 2018.</li>
+                            <li>Yalin Wang, Kenan Sun, Xiaofeng Yuan, Ling Li and Heikki Koivo, A Novel Sliding Window
+                                PCA-IPF based Steady-State Detection Framework and Its Industrial Application, IEEE
+                                Access, vol. 6, no. 1, pp. 20995-21004, 2018.</li>
+                            <li>Xiaofeng Yuan, Yalin Wang, Chunhua Yang, Weihua Gui and Lingjian Ye, Probabilistic
+                                Density-based Regression Model for Soft Sensing of Nonlinear Industrial Processes,
+                                Journal of Process Control, vol. 57, pp. 15-25, 2017.</li>
+                            <li>Xiaofeng Yuan, Zhiqiang Ge, Zhihuan Song, Yalin Wang, Chunhua Yang and Hongwei Zhang,
+                                Soft Sensor Modeling of Nonlinear Industrial Processes Based on Weighted Probabilistic
+                                Projection Regression, IEEE Transactions on Instrumentation & Measurement, vol. 66, pp.
+                                837-845, 2017.</li>
+                            <li>Xiaofeng Yuan, Zhiqiang Ge, Biao Huang, Zhihuan Song and Yalin Wang, Semi-supervised
+                                JITL Framework for Nonlinear Industrial Soft Sensing Based on Locally Semi-Supervised
+                                Weighted PCR. IEEE Transactions on Industrial Informatics, vol. 13, pp. 532-541, 2017.
+                            </li>
+                            <li>Shan Ma, Matthew J Woolley, Petersen Ian R and Yamamoto Naoki, Cascade and Locally
+                                Dissipative Realizations of Linear Quantum Systems for Pure Gaussian State Covariance
+                                Assignment, Automatica, vol. 90, pp. 263-270, 2018.</li>
+                            <li>Wenfeng Hu, Lu Liu and Gang Feng, Event-Triggered Cooperative Output Regulation of
+                                Linear Multi-Agent Systems under Jointly Connected Topologies, IEEE Transactions on
+                                Automatic Control, DOI: 10.1109/TAC.2018.2849587, 2018.</li>
+                            <li>
+                                <p style="text-indent: 0px;margin: 0px;">Wenfeng Hu, Chunhua Yang, Tingwen Huang and
+                                    Weihua Gui, A Distributed Dynamic
+                                    Event-Triggered Control Approach to Consensus of Linear Multi-Agent Systems With
+                                    Directed Networks, IEEE Transactions on Cybernetics,</p>
+                                DOI: 10.1109/TCYB.2018.2868778,
+                                2018.
+                            </li>
+                            <li>Keke Huang, Zhen Wang and Jusup Marko, Incorporating Latent Constraints to Enhance
+                                Inference of Network Structure, IEEE Transactions on Network Science and Engineering,
+                                DOI: 10.1109/TNSE.2018.2870687, 2018.</li>
+                            <li>Zhiwen Chen, Steven X. Ding, Tao Peng, Chunhua Yang and Weihua Gui, Fault Detection for
+                                Non-Gaussian Processes Using Generalized Canonical Correlation Analysis and Random
+                                Algorithms, IEEE Transactions on Industrial Electronics, vol.65, no.2, pp.1559-1567,
+                                2018.</li>
+                            <li>
+                                <p style="text-indent: 0px;margin: 0px;">Zhiwen Chen, Chunhua Yang, Tao Peng, Hanbing
+                                    Dan, Changgeng Li and Weihua Gui, A
+                                    Cumulative Canonical Correlation Analysis-based Sensor Precision Degradation
+                                    Detection
+                                    Method, IEEE Trans. on Industrial Electronic, </p>DOI:10.1109/TIE.2018.2873100,
+                                2018.
+                            </li>
+                            <li>Jianyong Zhu, Weihua Gui, Chunhua Yang, Honglei Xu and Xiaoli Wang, Probability Density
+                                Function of Bubble Size Based Reagent Dosage Predictive Control for Copper Roughing
+                                Flotation, Control Engineering Practice, vol. 29, pp. 1-12, 2014.</li>
+                            <li>Sen Xie, Chunhua Yang, Xiaoli Wang, Xiaofeng, Yuan, Yongfang Xie, A Data-driven Adaptive
+                                Multivariate Steady State Detection Strategy for the Evaporation Process of the Sodium
+                                Aluminate Solution, Journal of Process Control, vol. 68, pp. 145-159, 2018.</li>
+                            <li>Zhipeng Chen, Zhaohui Jiang, Weihua Gui and Chunhua Yang, A Novel Device for Optical
+                                Imaging of Blast Furnace Burden Surface: Parallel Low-Light-Loss Backlight
+                                High-Temperature Industrial Endoscope. IEEE Sensors Journal, vol. 16, no. 17, pp.
+                                6703-6717, 2016.</li>
+                            <li>Yu Yang, Qingshan Jia, Xiaohong Guan, Xuan Zhang, Zhifeng Qiu and Geert Deconinck,
+                                Decentralized EV-Based Charging Optimization With Building Integrated Wind Energy, IEEE
+                                Transactions on Automation Science and Engineering, DOI: 10.1109/TASE.2018.2856908,
+                                2018.</li>
+                            <li>Qilong Huang, Qingshan Jia, Zhifeng Qiu, Xiaohong Guan and Geert Deconinck, Matching EV
+                                Charging Load With Uncertain Wind: A Simulation-Based Policy Improvement Approach, IEEE
+                                Transactions on Smart Grid, vol. 6, no. 3, pp. 1425-1433, 2015.</li>
+                            <li>Yu Yang, Qingshan Jia, Geert Deconinck, Xiaohong Guan, Zhifeng Qiu and Zechun Hu,
+                                Distributed Coordination of EV Charging with Renewable Energy in a Microgrid of
+                                Buildings, IEEE Transactions on Smart Grid, DOI: 10.1109/TSG.2017.2707103, 2017.</li>
+
+                        </ol>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部友情链接、版权和地址 -->
+    <div class="container-fluid">
+        <div style="width:100%;height: 20px;"></div>
+        <div style="text-align: center;">
+            <div id="links">
+                <div>
+                    <a href="http://www.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/zndx5.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://lib.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/zndx1.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://soa.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/zndx6.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://gfist.csu.edu.cn/" target="_blank">
+                        <img src="image/foot/gdjtsys2.png" class="img-responsive center-block footimg" alt="Image">
+                    </a>
+                </div>
+                <div>
+                    <a href="http://aeice.alwit.cn/" target="_blank">
+                        <img src="image/foot/ldjxt1.png" class="img-responsive center-block" alt="Image"
+                            style="margin-left: 0.06px;margin-right: 0px;width: 188px;height: 60px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%;height: 8px;"></div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"></h3>
+            </div>
+        </div>
+        <div class="copyright">
+            <p class="text-center">
+                版权所有：中南大学控制工程研究所&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：<a
+                    href="https://goo.gl/maps/ybxGLqLGr7TTLJMZA"
+                    target="_blank">湖南省长沙市岳麓区麓山南路932号中南大学民主楼</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail：<a
+                    href="mailto:x-info@csu.edu.cn" target="_blank">x-info@csu.edu.cn</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：0736-88830700&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;意见反馈：<a
+                    href="mailto:ruya_mingli@163.com"
+                    target="_blank">ruya_mingli@163.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;技术支持qq：2944014083
+            </p>
+            <p>
+                <span class="gs_logo">
+                    <a href="#">
+                        <img src="image/foot/logii.png" class="img-responsive center-block" alt="Cinque Terre"
+                            width="50" height="50" />
+                    </a>
+                </span>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="text-center panel-title">中南大学自动化学院版权所有&nbsp;&nbsp;
+                    地址：<a href="https://goo.gl/maps/ybxGLqLGr7TTLJMZA" style="color: rgb(241, 240, 247);"
+                        target="_blank">湖南省长沙市岳麓区麓山南路932号中南大学民主楼</a>&nbsp;&nbsp;
+                    电话：0736-88830700&nbsp;&nbsp; E-mail：<a href="mailto:x-info@csu.edu.cn"
+                        target="_blank">x-info@csu.edu.cn</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <!-- 底部友情链接、版权和地址 -->
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-table.min.js"></script>
+
+    <script>//这里就一句话就可以显示时间，但不是我想要的最理想结果 
+        setInterval("show_time.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());", 100);
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            dropdownOpen();//调用
+        });
+        function dropdownOpen() {
+            var $dropdownLi = $('li.dropdown');
+            $dropdownLi.mouseover(function () {
+                $(this).addClass('open');
+            }).mouseout(function () {
+                $(this).removeClass('open');
+            });
+        }
+    </script>
+
+    <script>
+        $('#table1').bootstrapTable({
+
+            pagination: 'true'
+            , pageSize: 10
+            , pageList: 'false'
+            // ,pageList: [5,7,10]
+
+            , columns: [{
+                field: 'id',
+                title: '序号'
+                , width: '5%'
+            }, {
+                field: 'name',
+                title: '项目/课题名称'
+                , width: '25%'
+
+            }, {
+                field: 'number',
+                title: '编号'
+                , width: '15%'
+
+            }, {
+                field: 'responser',
+                title: '负责人'
+                , width: '10%'
+
+            }, {
+                field: 'period',
+                title: '起止时间'
+                , width: '25%'
+            }, {
+                field: 'provider',
+                title: '项目来源'
+                , width: '20%'
+            }]
+            , data: [
+                {
+                    "responser": "桂卫华",
+                    "name": "复杂有色冶金过程控制理论、技术与应用",
+                    "money": 600,
+                    "period": "201401-201612",
+                    "number": 61321003,
+                    "provider": "国家自然科学基金创新群体项目",
+                    "id": 1
+                },
+                {
+                    "responser": "桂卫华",
+                    "name": "复杂有色冶金过程控制理论、技术与应用",
+                    "money": 525,
+                    "period": "201701-201912",
+                    "number": 61621062,
+                    "provider": "国家自然科学基金创新群体项目(滚动支持)",
+                    "id": 2
+                },
+                {
+                    "responser": "阳春华",
+                    "name": "复杂工业过程建模、控制与优化",
+                    "money": 200,
+                    "period": "201101-201512",
+                    "number": 61025015,
+                    "provider": "国家自然科学基金杰出青年科学基金项目",
+                    "id": 3
+                },
+                {
+                    "responser": "谢永芳",
+                    "name": "有色冶金过程控制理论及应用",
+                    "money": 350,
+                    "period": "201801-202212",
+                    "number": 61725306,
+                    "provider": "国家自然科学基金杰出青年科学基金项目",
+                    "id": 4
+                },
+                {
+                    "responser": "阳春华",
+                    "name": "高浓度比有色冶金料液痕量多金属离子浓度在线检测方法与应用验证",
+                    "money": 290,
+                    "period": "201601-202012",
+                    "number": 61533021,
+                    "provider": "国家自然科学基金重点项目",
+                    "id": 5
+                },
+                {
+                    "responser": "李劼",
+                    "name": "基于大数据和云计算的铝电解生产知识自动化决策系统设计方法与应用验证",
+                    "money": 290,
+                    "period": "201601-202012",
+                    "number": 61533020,
+                    "provider": "国家自然科学基金重点项目",
+                    "id": 6
+                },
+                {
+                    "responser": "桂卫华",
+                    "name": "基于机器视觉的矿物浮选过程建模与优化控制",
+                    "money": 300,
+                    "period": "201201-201612",
+                    "number": 61134006,
+                    "provider": "国家自然科学基金重点项目",
+                    "id": 7
+                },
+                {
+                    "responser": "阳春华",
+                    "name": "有色金属绿色冶炼的自动化关键技术及集成示范",
+                    "money": 844,
+                    "period": "2012-201412",
+                    "number": "2012BAF03B05",
+                    "provider": "国家科技支撑计划",
+                    "id": 8
+                },
+                {
+                    "responser": "周萍",
+                    "name": "高通量块体材料制备新方法、新技术与新装备",
+                    "money": 2600,
+                    "period": "201609-202012",
+                    "number": "2016YFB0700300",
+                    "provider": "国家科技部重点研发计划",
+                    "id": 9
+                },
+                {
+                    "responser": "周萍",
+                    "name": "铜冶炼过程砷污染源解析及其废物控制技术研究",
+                    "money": 455,
+                    "period": "201501-201712",
+                    "number": 201509050,
+                    "provider": "国家环保部环保公益项目",
+                    "id": 10
+                },
+                {
+                    "responser": "桂卫华",
+                    "name": "金属矿山尾矿库安全实时评估与预警体系研究",
+                    "money": 113.4,
+                    "period": "201201-201412",
+                    "number": "2012BAK09B04",
+                    "provider": "国家科技支撑计划",
+                    "id": 11
+                },
+                {
+                    "responser": "谢永芳",
+                    "name": "冶金工业系统能效监测评估及优化控制技术与系统",
+                    "money": 153.5,
+                    "period": "201401-201612",
+                    "number": "2014AA041803",
+                    "provider": "国家863计划",
+                    "id": 12
+                },
+                {
+                    "responser": "孙尧",
+                    "name": "中高压大功率矩阵变换器拓扑结构和控制方法",
+                    "money": 218,
+                    "period": "201201-201612",
+                    "number": "2012AA05160",
+                    "provider": "国家863计划",
+                    "id": 13
+                },
+                {
+                    "responser": "徐德刚",
+                    "name": "大规模PLC关键技术研究与产品开发及应用",
+                    "money": 100,
+                    "period": "201301-201512",
+                    "number": "2013AA040301",
+                    "provider": "国家863计划",
+                    "id": 14
+                },
+                {
+                    "responser": "孙尧",
+                    "name": "电力电子系统建模与控制",
+                    "money": 150,
+                    "period": "201701-201912",
+                    "number": 61622311,
+                    "provider": "国家自然科学基金优秀青年科学基金项目",
+                    "id": 15
+                },
+                {
+                    "responser": "桂卫华",
+                    "name": "大型高炉炼铁过程运行信息的高性能检测方法研究",
+                    "money": 304,
+                    "period": "201301-201712",
+                    "number": 61290325,
+                    "provider": "国家自然科学基金重大项目",
+                    "id": 16
+                },
+                {
+                    "responser": "阳春华",
+                    "name": "高速列车信息控制系统故障诊断应用验证平台与故障测试技术",
+                    "money": 248,
+                    "period": "201501-201912",
+                    "number": 61490702,
+                    "provider": "国家自然科学基金重大项目",
+                    "id": 17
+                },
+                {
+                    "responser": "王雅琳",
+                    "name": "炼油生产过程全局运行状况在线分析理论与自调整技术",
+                    "money": 306,
+                    "period": "201601-202012",
+                    "number": 61590921,
+                    "provider": "国家自然科学基金重大项目",
+                    "id": 18
+                },
+                {
+                    "responser": "谢永芳",
+                    "name": "流程工业过程操作优化决策的知识自动化方法及应用",
+                    "money": 220,
+                    "period": "201801-202012",
+                    "number": 61751312,
+                    "provider": "国家自然科学基金应急管理重点项目",
+                    "id": 19
+                },
+                {
+                    "responser": "唐朝晖",
+                    "name": "工业过程数据实时获取与知识自动化的理论与技术研究",
+                    "money": 280,
+                    "period": "201801-202112",
+                    "number": "U1701261",
+                    "provider": "国家自然科学基金委广东联合基金重点项目",
+                    "id": 20
+                }
+            ]
+        });
+    </script>
+
+    <script>
+        $('#table2').bootstrapTable({
+
+            pagination: 'true'
+            , pageSize: 10
+            , pageList: 'false'
+            // ,pageList: [5,7,10]
+
+            , columns: [{
+                field: 'id',
+                title: '序号'
+                , width: '10%'
+            }, {
+                field: 'name',
+                title: '项目名称'
+                , width: '50%'
+
+            }, {
+                field: 'award',
+                title: '奖励类型'
+                , width: '40%'
+
+            }]
+            , data: [
+                {
+                    "id": 1,
+                    "award": "国家科学技术进步一等奖",
+                    "name": "铝资源高效利用与高性能铝材制备的理论与技术"
+                },
+                {
+                    "id": 2,
+                    "award": "国家科学技术进步二等奖",
+                    "name": "铝电解槽高效节能控制技术及推广应用"
+                },
+                {
+                    "id": 3,
+                    "award": "国家科学技术进步二等奖",
+                    "name": "超强化旋浮铜冶炼和无氧化还原精炼工艺研发及产业化应用"
+                },
+                {
+                    "id": 4,
+                    "award": "国家科学技术进步二等奖",
+                    "name": "铜冶炼生产全流程自动化关键技术及应用"
+                },
+                {
+                    "id": 5,
+                    "award": "国家科学技术进步二等奖",
+                    "name": "大型高强度铝合金构件制备重大装备智能控制技术与应用"
+                },
+                {
+                    "id": 6,
+                    "award": "国家科学技术进步二等奖",
+                    "name": "智能集成优化控制技术及其在锌电解和炼焦配煤过程中的应用"
+                },
+
+                {
+                    "id": 7,
+                    "award": "国家科学技术进步二等奖",
+                    "name": "铝电解过程智能控制系统及其推广应用"
+                },
+                {
+                    "id": 8,
+                    "award": "湖南省自然科学一等奖",
+                    "name": "复杂有色冶金过程控制的理论与方法"
+                },
+                {
+                    "id": 9,
+                    "award": "中国有色金属工业科学技术发明一等奖",
+                    "name": "基于分布机器视觉的选矿过程全流程监控技术"
+                },
+                {
+                    "id": 10,
+                    "award": "湖南省技术发明一等奖",
+                    "name": "多重金属离子浓度在线检测与废水处理自动化关键技术"
+                },
+                {
+                    "id": 11,
+                    "award": "中国有色金属工业科学技术一等奖",
+                    "name": "湿法炼锌绿色生产优化控制关键技术及应用"
+                },
+                {
+                    "id": 12,
+                    "award": "教育部科学技术进步奖一等奖",
+                    "name": "铝电解槽高效节能控制技术及推广应用"
+                },
+                {
+                    "id": 13,
+                    "award": "中国质量评价协会科技创新成果一等奖",
+                    "name": "基于多传感器融合的多机器人智能喷涂系统"
+                },
+                {
+                    "id": 14,
+                    "award": "黑龙江省自然科学一等奖",
+                    "name": "时滞非线性系统基于模糊模型的设计理论与方法"
+                },
+                {
+                    "id": 15,
+                    "award": "中国有色金属工业科学技术进步一等奖",
+                    "name": "高精度电子铜箔关键工艺技术研究及产业化"
+                },
+                {
+                    "id": 16,
+                    "award": "中国有色金属工业科学技术奖一等奖",
+                    "name": "大型“双闪”铜冶炼系统节能关键技术的开发与应用"
+                },
+                {
+                    "id": 17,
+                    "award": "教育部自然科学二等奖",
+                    "name": "矩阵变换器系统的基础理论研究"
+                },
+                {
+                    "id": 18,
+                    "award": "江西省科学技术进步二等奖",
+                    "name": "极端气象条件下金属矿山尾矿库防灾技术研究"
+                },
+                {
+                    "id": 19,
+                    "award": "中国有色金属工业科学技术进步二等奖",
+                    "name": "极端气象条件下金属矿山尾矿库防灾技术研究"
+                },
+                {
+                    "id": 20,
+                    "award": "中国有色金属工业科学技术一等奖",
+                    "name": "铝电解低电压高效节能控制技术的开发与应用"
+                },
+                {
+                    "id": 21,
+                    "award": "中国有色金属工业科学技术一等奖",
+                    "name": "铜冶炼生产全流程自动化关键技术及应用"
+                },
+                {
+                    "id": 22,
+                    "award": "湖南省科技进步一等奖",
+                    "name": "大型锌湿法电解生产综合优化控制技术与应用"
+                },
+                {
+                    "id": 23,
+                    "award": "中国有色金属工业科学技术一等奖",
+                    "name": "车辆电器性能检测技术与自动化装置"
+                },
+                {
+                    "id": 24,
+                    "award": "湖南省科技进步一等奖",
+                    "name": "大型航空航天构件模锻和热处理装备智能控制系统"
+                },
+                {
+                    "id": 25,
+                    "award": "中国有色金属工业科学技术一等奖",
+                    "name": "智能集成优化控制技术及其在锌电解和炼焦配煤过程中的应用"
+                },
+                {
+                    "id": 26,
+                    "award": "中国有色金属工业科技进步一等奖",
+                    "name": "铝电解过程智能控制系统及其推广应用"
+                },
+            ]
+            //         ,data: [{
+            //         id: 1,
+            //         name: '桂卫华(所长)',
+            //         sex: '男',
+            //         title: '院士',
+            //         direction: '复杂工业过程建模与优化控制',
+            //         location: '民主楼205',
+            //         email: 'gwh@csu.edu.cn'
+            //     }, {
+            //         id: 2,
+            //         name: '阳春华(副所长)',
+            //         sex: '女',
+            //         title: '教授\n杰青',
+            //         direction: '生产过程智能感知技术、智能自动化系统',
+            //         location: '民主楼309',
+            //         email: 'ychh@csu.edu.cn'
+            //     }, {
+            //         id: 3,
+            //         name: '谢永芳',
+            //         sex: '男',
+            //         title: '教授\n杰青',
+            //         direction: '有色冶金过程控制、知识自动化、工控信息安全',
+            //         location: '民主楼320',
+            //         email: 'yfxie@csu.edu.cn'
+            //     }]
+        });
+    </script>
+
+    <script>
+        $('#table3').bootstrapTable({
+
+            pagination: 'true'
+            , pageSize: 20
+            , pageList: 'false'
+
+            , columns: [{
+                field: 'id',
+                title: '序号'
+                , width: '10%'
+            }, {
+                field: 'name',
+                title: '专利名称'
+                , width: '65%'
+
+            }, {
+                field: 'patent',
+                title: '专利号'
+                , width: '25%'
+
+            }]
+            , data: [
+                {
+                    "patent": "ZL201110180015.7",
+                    "id": 1,
+                    "name": "一种冶金料液多组分在线极谱检测的装置和方法"
+                },
+                {
+                    "patent": "ZL201210199102.1",
+                    "id": 2,
+                    "name": "线性扫描极谱曲线重叠峰分离方法"
+                },
+                {
+                    "patent": "ZL201010561311.7",
+                    "id": 3,
+                    "name": "一种矿热炉三相电极功率测量方法"
+                },
+                {
+                    "patent": "ZL201210094681.3",
+                    "id": 4,
+                    "name": "一种湿法炼锌除铜过程锌粉有效性系数预测方法"
+                },
+                {
+                    "patent": "ZL201210084914.1",
+                    "id": 5,
+                    "name": "一种基于分数阶微分的自适应浮选泡沫图像增强方法"
+                },
+                {
+                    "patent": "ZL201210204301.7",
+                    "id": 6,
+                    "name": "一种锌湿法冶炼砷盐净化除钴过程废酸添加控制方法"
+                },
+                {
+                    "patent": "ZL201210120613.X",
+                    "id": 7,
+                    "name": "一种基于泡沫图像特征和通风量的硫浮选液位测量方法"
+                },
+                {
+                    "patent": "ZL201310041636.6",
+                    "id": 8,
+                    "name": "一种基于DSP的嵌入式浮选泡沫图像监控装置"
+                },
+                {
+                    "patent": "ZL201310281920.0",
+                    "id": 9,
+                    "name": "基于MPCA的铜浮选泡沫图像局部区域面积测量方法"
+                },
+                {
+                    "patent": "ZL201310450164.X",
+                    "id": 10,
+                    "name": "线性扫描极谱波的模型构建方法及装置"
+                },
+                {
+                    "patent": "ZL201310252751.8",
+                    "id": 11,
+                    "name": "基于小波多尺度二值化的铜浮选现场泡沫工况识别方法"
+                },
+                {
+                    "patent": "ZL201210265125.8",
+                    "id": 12,
+                    "name": "基于矿物浮选泡沫图像的分类方法"
+                },
+                {
+                    "patent": "ZL201310625743.3",
+                    "id": 13,
+                    "name": "多源信息融合确定高炉软熔带根部位置的方法"
+                },
+                {
+                    "patent": "ZL201310646003.8",
+                    "id": 14,
+                    "name": "平行低光损背光高温工业内窥镜"
+                },
+                {
+                    "patent": "ZL201310456426.3",
+                    "id": 15,
+                    "name": "一种矿热炉二次侧电参数测量系统及方法"
+                },
+                {
+                    "patent": "ZL201310328995.X",
+                    "id": 16,
+                    "name": "一种基于GigE接口的嵌入式并行多路数字图像采集系统"
+                },
+                {
+                    "patent": "ZL201410097218.3",
+                    "id": 17,
+                    "name": "一种连续高精度的高炉料位实时检测方法"
+                },
+                {
+                    "patent": "ZL201310706376.X",
+                    "id": 18,
+                    "name": "平行低光损背光高温内窥镜下的高炉全料面光学成像系统"
+                },
+                {
+                    "patent": "ZL201310730653.0",
+                    "id": 19,
+                    "name": "高温浓稠复杂料液基体在线沉降的装置和方法"
+                },
+                {
+                    "patent": "ZL201410230404.X",
+                    "id": 20,
+                    "name": "一种铝电解槽电场仿真分析方法"
+                },
+                {
+                    "patent": "ZL201310209572.6",
+                    "id": 21,
+                    "name": "一种面向矿物泡沫浮选的嵌入式泡沫流速测量系统及方法"
+                },
+                {
+                    "patent": "ZL.201410059811.9",
+                    "id": 22,
+                    "name": "立式淬火炉构件温度场分布检测系统"
+                },
+                {
+                    "patent": "ZL201510340996.5",
+                    "id": 23,
+                    "name": "高炉铁水硅含量四分类趋势预报模型的建立方法及应用"
+                },
+                {
+                    "patent": "ZL201510372889.0",
+                    "id": 24,
+                    "name": "一种高炉铁水硅含量二维预报模型的构建方法及应用"
+                },
+                {
+                    "patent": "ZL201510248855.0",
+                    "id": 25,
+                    "name": "一种针铁矿法沉铁过程界面反应模型的建立方法及应用"
+                },
+                {
+                    "patent": "ZL201510204464.9",
+                    "id": 26,
+                    "name": "一种带钢表面面积型缺陷识别分类的方法"
+                },
+                {
+                    "patent": "ZL201510016447.2",
+                    "id": 27,
+                    "name": "一种无有效重叠变结构的定点定向视频实时拼接方法"
+                },
+                {
+                    "patent": "ZL201510082043.3",
+                    "id": 28,
+                    "name": "一种基于多元图像特征融合的矿物浮选泡沫层厚度软测量方法"
+                },
+                {
+                    "patent": "ZL201510015991.5",
+                    "id": 29,
+                    "name": "一种无有效重叠区域的定点定向视频实时拼接装置"
+                },
+                {
+                    "patent": " ZL201410527643.1",
+                    "id": 30,
+                    "name": "一种基于Minkowski距离的矿物浮选泡沫图像纹理分析及工况识别方法"
+                },
+                {
+                    "patent": " ZL201410620090.4",
+                    "id": 31,
+                    "name": "氧化铝双流法溶出过程出口溶液苛性比值的在线预测方法"
+                },
+                {
+                    "patent": "ZL201510082221.2",
+                    "id": 32,
+                    "name": "一种基于PCI-E接口的大规模PLC高速背板总线系统"
+                },
+                {
+                    "patent": "ZL201510174587.2",
+                    "id": 33,
+                    "name": "一种氧化铝蒸发过程降膜蒸发器的液位优化设定方法"
+                },
+                {
+                    "patent": "ZL201610424666.9",
+                    "id": 34,
+                    "name": "一种定量浇铸曲线的获取方法及装置"
+                },
+                {
+                    "patent": "ZL201610260727.2",
+                    "id": 35,
+                    "name": "球式热风炉烧炉过程建模与能耗优化方法及系统"
+                },
+                {
+                    "patent": "ZL201610460142.5",
+                    "id": 36,
+                    "name": "基于测试体系优化的掩蔽峰重现方法"
+                },
+                {
+                    "patent": "ZL201610325551.4",
+                    "id": 37,
+                    "name": "一种用于确定高炉炉顶内的低粉尘区域的方法以及装置"
+                },
+                {
+                    "patent": "ZL201510995957.9",
+                    "id": 38,
+                    "name": "基于预测控制的矩阵变换器开关开路故障诊断方法"
+                },
+                {
+                    "patent": "ZL201510784242.9",
+                    "id": 39,
+                    "name": "一种氧化铝双流法溶出过程入口矿浆和碱液的配比优化方法"
+                },
+                {
+                    "patent": "ZL201511023289.X",
+                    "id": 40,
+                    "name": "一种基于氧化还原电位的湿法冶金净化过程控制周期计算方法"
+                },
+                {
+                    "patent": "ZL201110105354.9",
+                    "id": 41,
+                    "name": "一种高温高浓稠料液多通道在线取样进样方法"
+                },
+                {
+                    "patent": "ZL201410122812.3",
+                    "id": 42,
+                    "name": "一种锑浮选工况识别方法及系统"
+                },
+                {
+                    "patent": "ZL201410053132.0",
+                    "id": 43,
+                    "name": "极谱法多金属离子浓度在线检测方法"
+                },
+                {
+                    "patent": "ZL201510365984.8",
+                    "id": 44,
+                    "name": "一种功率器件IGBT开路故障注入方法及系统"
+                },
+                {
+                    "patent": "ZL201510362521.6",
+                    "id": 45,
+                    "name": "一种高速列车信息控制系统协同故障仿真系统"
+                },
+                {
+                    "patent": "ZL201510141710.0",
+                    "id": 46,
+                    "name": "一种桥式起重机大车行走最小时间控制的方法"
+                },
+                {
+                    "patent": "ZL201610447557.9",
+                    "id": 47,
+                    "name": "用于化学重金属废水处理过程的多参数优化方法及装置"
+                },
+                {
+                    "patent": "ZL201310683493.9",
+                    "id": 48,
+                    "name": "一种基于CCM模式的微逆变器及其控制方法"
+                },
+                {
+                    "patent": "ZL201410154819.3",
+                    "id": 49,
+                    "name": "一种基站并网-充电光伏微逆变器系统及其控制方法"
+                },
+                {
+                    "patent": "ZL201510266720.7",
+                    "id": 50,
+                    "name": "基于数学构造的多模块矩阵变换器调制方法"
+                },
+                {
+                    "patent": "ZL201510467853.0",
+                    "id": 51,
+                    "name": "一种高效率宽负载范围的三相微逆变器及其控制方法"
+                },
+                {
+                    "patent": "ZL201310157579.8",
+                    "id": 52,
+                    "name": "基于导热油的烟气余热回收装置的预警与控制系统及方法"
+                },
+                {
+                    "patent": "ZL201310144821.8",
+                    "id": 53,
+                    "name": "一种闪速熔炼炉体冷却余热回收的方法及其装置"
+                },
+                {
+                    "patent": "ZL201410304220.3",
+                    "id": 54,
+                    "name": "一种多层熔体高度的测量方法"
+                },
+                {
+                    "patent": "ZL201410229280.3",
+                    "id": 55,
+                    "name": "一种含高导电骨架网络的铝电解槽复合阴极结构"
+                },
+                {
+                    "patent": "ZL201310187142.9",
+                    "id": 56,
+                    "name": "一种减缓熔体波动抗冲刷的铝电解槽"
+                },
+                {
+                    "patent": "ZL201310187629.7",
+                    "id": 57,
+                    "name": "一种降低铝液水平电流的铝电解槽侧部导电阴极结构"
+                },
+                {
+                    "patent": "ZL201310578987.0",
+                    "id": 58,
+                    "name": "一种铝电解槽电压及热平衡的计算方法"
+                },
+                {
+                    "patent": "ZL201410417663.3",
+                    "id": 59,
+                    "name": "一种铝电解槽下料器工作状态的诊断方法及系统"
+                },
+                {
+                    "patent": "ZL201310187654.5",
+                    "id": 60,
+                    "name": "一种分区电解预焙铝电解槽"
+                },
+                {
+                    "patent": "ZL201410791654.0",
+                    "id": 61,
+                    "name": "一种基于像素平方差匹配的游戏扑克牌识别方法"
+                },
+                {
+                    "patent": "ZL 201611234215.5",
+                    "id": 62,
+                    "name": "一种加氢裂化流程产品质量在线预测方法"
+                },
+                {
+                    "patent": "ZL 201611235402.5",
+                    "id": 63,
+                    "name": "一种加氢精制中氢解程度的实时预测方法及其系统"
+                },
+                {
+                    "patent": "Z1.201710517466.2",
+                    "id": 64,
+                    "name": "多工序间变量时滞估计方法及加氢裂化流程时滞估计方法"
+                },
+                {
+                    "patent": "ZL201310221777.6",
+                    "id": 65,
+                    "name": "一种净化湿法烦锌浸出液的方法发装置"
+                },
+                {
+                    "patent": "ZL200810031806.1",
+                    "id": 66,
+                    "name": "一种基于图像特征分析的浮逸回收率预测方法"
+                },
+                {
+                    "patent": "ZL201510847530.4",
+                    "id": 67,
+                    "name": "一种基于ARW+Kinect的嵌入式矿物浮选泡沫三维图像监控装置"
+                },
+                {
+                    "patent": "ZL201510996427.6",
+                    "id": 68,
+                    "name": "高速列车牵引传动控制系统故障注入方法及仿真系统"
+                },
+                {
+                    "patent": "ZL201410238228.4",
+                    "id": 69,
+                    "name": "基于单摄像机等效双目立体视觉模型的泡沫立体特征提取方法"
+                },
+                {
+                    "patent": "ZL201310717304.5",
+                    "id": 70,
+                    "name": "基于多尺度邻域相关矩阵的泡沫图像纹理特征提取方法"
+                },
+                {
+                    "patent": "ZL201310138509.8",
+                    "id": 71,
+                    "name": "基于副边参考电流重构的光伏微逆变器、控制系统和方法"
+                },
+                {
+                    "patent": "ZL201410238270.6",
+                    "id": 72,
+                    "name": "基于模型参考分析的有源电力滤波器开关器件开路故障诊断方法"
+                },
+                {
+                    "patent": "ZL201410699401.0",
+                    "id": 73,
+                    "name": "基于深度信息的泡沫浮选液位监测和工况识别方法及系统"
+                },
+                {
+                    "patent": "ZL201410260246.2",
+                    "id": 74,
+                    "name": "交错反激式微逆变器的开路故障诊断方法"
+                },
+                {
+                    "patent": "ZL201310138141.5",
+                    "id": 75,
+                    "name": "具有集群调节器的三相群微逆变器系统及控制方法"
+                },
+                {
+                    "patent": "ZL201310574723.8",
+                    "id": 76,
+                    "name": "泡沫图像多尺度多方向纹理特征的提取方法"
+                },
+                {
+                    "patent": "ZL201510266612.X",
+                    "id": 77,
+                    "name": "无需增加额外开关器件的有源功率解耦装置及控制方法"
+                },
+                {
+                    "patent": "ZL201610638765.7",
+                    "id": 78,
+                    "name": "一种顶燃式热风炉"
+                },
+                {
+                    "patent": "ZL201510816204.7",
+                    "id": 79,
+                    "name": "一种浮选泡沫图像的复合纹理特征提取方法"
+                },
+                {
+                    "patent": "ZL201510266692.9",
+                    "id": 80,
+                    "name": "一种基于串联补偿的二次脉动功率解耦闭环控制方法"
+                },
+                {
+                    "patent": "ZL201310193527.6",
+                    "id": 81,
+                    "name": "一种基于神经网络专家系统的微逆变器故障检测方法"
+                },
+                {
+                    "patent": "ZL201510386358.7",
+                    "id": 82,
+                    "name": "一种基于替代模型的单粒子瞬态效应注入方法"
+                },
+                {
+                    "patent": "ZL201610280971.5",
+                    "id": 83,
+                    "name": "一种基于氧化还原电位的锌液净化除铜过程优化控制方法"
+                },
+                {
+                    "patent": "ZL201210128357.9",
+                    "id": 84,
+                    "name": "一种连续蓄热式热交换器"
+                },
+                {
+                    "patent": "ZL201510266118.3",
+                    "id": 85,
+                    "name": "一种面向多模块矩阵变换器的同相层叠载波调制方法"
+                },
+                {
+                    "patent": "ZL201210357900.2",
+                    "id": 86,
+                    "name": "一种切换式蓄热式高效热交换器"
+                },
+                {
+                    "patent": "ZL2012 0357976.5",
+                    "id": 87,
+                    "name": "一种卧式蓄热式高效热交换器"
+                },
+                {
+                    "patent": "ZL201310268986.6",
+                    "id": 88,
+                    "name": "一种悬浮熔炼炉喷嘴"
+                }
+            ]
+        });
+    </script>
+
+    <script>
+        function GetQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) return unescape(r[2]); return null;
+        }
+        var key = GetQueryString("key");
+        var date = GetQueryString("date");
+        var article1 = document.querySelector('#yanjiufangxiang');
+        var article2 = document.querySelector('#yanjiuxiangmu');
+        var article3 = document.querySelector('#keyanchengguo');
+
+        var articleZhuyaokeyan = document.querySelector('#zhuyaokeyan');
+        var articleJiangli = document.querySelector('#jiangli');
+        var articleZhaunli = document.querySelector('#zhuanli');
+        var articleLunwen = document.querySelector('#lunwen');
+
+        var buttons = document.querySelector('#listGroup1').querySelectorAll('p');  //侧边栏
+        //只有key 说明是导航栏来的
+        if (date == null) {
+            articleZhuyaokeyan.style.display = 'none';
+            articleJiangli.style.display = 'none';
+            articleZhaunli.style.display = 'none';
+            articleLunwen.style.display = 'none';
+            if (key == '1') {
+                article1.style.display = 'block';
+                article2.style.display = 'none';
+                article3.style.display = 'none';
+
+                buttons[0].classList.add('active');
+                buttons[1].classList.remove('active');
+                buttons[2].classList.remove('active');
+            }
+            else if (key == '2') {
+                article1.style.display = 'none';
+                article2.style.display = 'block';
+                article3.style.display = 'none';
+
+                buttons[0].classList.remove('active');
+                buttons[1].classList.add('active');
+                buttons[2].classList.remove('active');
+            }
+            else if (key == '3') {
+                article1.style.display = 'none';
+                article2.style.display = 'none';
+                article3.style.display = 'block';
+
+                buttons[0].classList.remove('active');
+                buttons[1].classList.remove('active');
+                buttons[2].classList.add('active');
+            }
+        }
+        //还有date 说明是首页下面的链接接过来的
+        else {
+            article1.style.display = 'none';
+            article2.style.display = 'none';
+            article3.style.display = 'none';
+            buttons[0].classList.remove('active');
+            buttons[1].classList.remove('active');
+            buttons[2].classList.add('active');
+            if (date == 'Top1') {
+                articleZhuyaokeyan.style.display = 'block';
+                articleJiangli.style.display = 'none';
+                articleZhaunli.style.display = 'none';
+                articleLunwen.style.display = 'none';
+            }
+            else if (date == 'Top2') {
+                articleZhuyaokeyan.style.display = 'none';
+                articleJiangli.style.display = 'block';
+                articleZhaunli.style.display = 'none';
+                articleLunwen.style.display = 'none';
+            }
+            else if (date == 'Top3') {
+                articleZhuyaokeyan.style.display = 'none';
+                articleJiangli.style.display = 'none';
+                articleZhaunli.style.display = 'block';
+                articleLunwen.style.display = 'none';
+            }
+            else if (date == 'Top4') {
+                articleZhuyaokeyan.style.display = 'none';
+                articleJiangli.style.display = 'none';
+                articleZhaunli.style.display = 'none';
+                articleLunwen.style.display = 'block';
+            }
+        }
+
+
+
+
+        //点击侧边栏
+        for (var i = 0; i < buttons.length; ++i) {
+            buttons[i].onclick = function () {
+                var index = this.getAttribute('data-index');
+                articleZhuyaokeyan.style.display = 'none';
+                articleJiangli.style.display = 'none';
+                articleZhaunli.style.display = 'none';
+                articleLunwen.style.display = 'none';
+                if (index == '1') {
+                    article1.style.display = 'block';
+                    article2.style.display = 'none';
+                    article3.style.display = 'none';
+
+                    buttons[0].classList.add('active');
+                    buttons[1].classList.remove('active');
+                    buttons[2].classList.remove('active');
+                }
+                else if (index == '2') {
+                    article1.style.display = 'none';
+                    article2.style.display = 'block';
+                    article3.style.display = 'none';
+
+                    buttons[0].classList.remove('active');
+                    buttons[1].classList.add('active');
+                    buttons[2].classList.remove('active');
+                }
+                else if (index == '3') {
+                    article1.style.display = 'none';
+                    article2.style.display = 'none';
+                    article3.style.display = 'block';
+
+                    buttons[0].classList.remove('active');
+                    buttons[1].classList.remove('active');
+                    buttons[2].classList.add('active');
+                }
+            }
+        }
+
+        var buttonsH4 = document.querySelector("#chengguoGroup").querySelectorAll('h4');
+        for (var i = 0; i < buttonsH4.length; ++i) {
+            buttonsH4[i].onclick = function () {
+                var index = this.getAttribute('data-index');
+                article1.style.display = 'none';
+                article2.style.display = 'none';
+                article3.style.display = 'none';
+                buttons[0].classList.remove('active');
+                buttons[1].classList.remove('active');
+                buttons[2].classList.add('active');
+                if (index == '1') {
+                    articleZhuyaokeyan.style.display = 'block';
+                    articleJiangli.style.display = 'none';
+                    articleZhaunli.style.display = 'none';
+                    articleLunwen.style.display = 'none';
+                }
+                else if (index == '2') {
+                    articleZhuyaokeyan.style.display = 'none';
+                    articleJiangli.style.display = 'block';
+                    articleZhaunli.style.display = 'none';
+                    articleLunwen.style.display = 'none';
+                }
+                else if (index == '3') {
+                    articleZhuyaokeyan.style.display = 'none';
+                    articleJiangli.style.display = 'none';
+                    articleZhaunli.style.display = 'block';
+                    articleLunwen.style.display = 'none';
+                }
+                else if (index == '4') {
+                    articleZhuyaokeyan.style.display = 'none';
+                    articleJiangli.style.display = 'none';
+                    articleZhaunli.style.display = 'none';
+                    articleLunwen.style.display = 'block';
+                }
+            }
+        }
+
+        var buttonDatas = document.querySelectorAll('span[data-flag="1"]');
+        for (var i = 0; i < buttonDatas.length; ++i) {
+            buttonDatas[i].onclick = function () {
+                article1.style.display = 'none';
+                article2.style.display = 'none';
+                article3.style.display = 'block';
+
+                articleZhuyaokeyan.style.display = 'none';
+                articleJiangli.style.display = 'none';
+                articleZhaunli.style.display = 'none';
+                articleLunwen.style.display = 'none';
+
+                buttons[0].classList.remove('active');
+                buttons[1].classList.remove('active');
+                buttons[2].classList.add('active');
+            }
+        }
+    </script>
+</body>
+
+</html>

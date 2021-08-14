@@ -1,0 +1,169 @@
+
+.titleDate { 
+    float:right; _position:relative;
+}
+
+.dateLineHeight{
+    line-height: 40px;
+}
+
+.myArticle p{
+    text-indent: 2em;
+    font-size:16px;
+    line-height:22px;
+}
+
+
+
+.media-body p{
+    text-indent: 0em;
+}
+
+.h4Line{
+    font-size: 18px;
+}
+.logotop {
+    width: 940px;
+    height: 120px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: url(../image/logo/logo3.png) no-repeat center;
+    background-size: cover;
+}
+
+.daohang {
+    width: 940px;
+    height: 120px;
+}
+.mainbox {
+    width: 970px;
+    height: 120px;
+}
+
+.home {
+    width: 940px;
+}
+
+.noticeTitle .glyphicon {
+    color: rgb(194, 11, 11);
+}
+
+.noticeTitle a {
+    color: rgb(39, 39, 39);
+}
+
+.media img {
+    width: 40px;
+}
+
+.carousel-indicators {
+    top: 250px;
+}
+
+.carousel-indicators li {
+    border: 0px solid rgb(51, 122, 183);
+}
+
+.carousel-indicators .active {
+    background-color: rgb(51, 122, 183);
+}
+
+.carousel-caption {
+    top: 210px;
+}
+
+.carousel-control {
+    height: 270px;
+}
+
+.myPanel {
+    height: 230px;
+}
+
+.myRow {
+    margin-top: -10px;
+}
+
+#links div {
+    width: 12.4%;
+    height: 60px;
+    display: inline-block;
+}
+
+.footimg {
+    height: 60px;
+}
+
+.noticeTitle .glyphicon {
+    color: rgb(194, 11, 11);
+}
+
+.noticeTitle a {
+    color: rgb(39, 39, 39);
+}
+
+.media img {
+    width: 40px;
+}
+
+.carousel-indicators {
+    top: 250px;
+}
+
+
+.carousel-indicators .active {
+    background-color: rgb(51, 122, 183);
+}
+
+.carousel-caption {
+    top: 210px;
+}
+
+.carousel-control {
+    height: 270px;
+}
+
+.panel-heading h3{
+    vertical-align: middle !important;  
+}
+#tableImage p, #images p{
+    text-indent: 0em;
+    width: 70%;
+    margin:0 auto;
+}
+#images div{
+    float: left;
+    width: 20%;
+    height: 215px;
+}
+#images img{
+    width: 100px;
+    height: 140px;
+}
+
+#tableImage td{
+    width: 110px;
+}
+.myMedia img{
+    width: 160px;
+    height: 240px;
+}
+
+.leftmenu:hover {
+    background-color: rgb(187, 189, 192);
+}
+
+.xiahuaxian:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.list li {
+    display: inline-block;
+}
+
+#papers li {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
